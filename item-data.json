@@ -568,7 +568,7 @@
     },
     "upgrade_chonky": {
         "Name": "Fortitude",
-        "Description": "After not taking damage for <span class=\"highlight\">1s</span>, gain <span class=\"highlight\">4% Max Health Regen</span>.",
+        "Description": "After not taking damage for <span class=\"highlight\">11s</span>, gain <span class=\"highlight\">4% Max Health Regen</span>.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "Passive",
@@ -582,7 +582,7 @@
             "Healing",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"300\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"After not taking damage for <span class=\\\"highlight\\\">1s</span>, gain <span class=\\\"highlight\\\">4% Max Health Regen</span>.\"}, {\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"bullet_damage\"}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\"}}, \"Description\": \"When you are <span class=\\\"highlight\\\">above 7% health</span>, you have bonus <span class=\\\"highlight\\\">Weapon Damage</span> and <span class=\\\"highlight\\\">Movement Speed</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"300\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"After not taking damage for <span class=\\\"highlight\\\">11s</span>, gain <span class=\\\"highlight\\\">4% Max Health Regen</span>.\"}, {\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"bullet_damage\"}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\"}}, \"Description\": \"When you are <span class=\\\"highlight\\\">above 7% health</span>, you have bonus <span class=\\\"highlight\\\">Weapon Damage</span> and <span class=\\\"highlight\\\">Movement Speed</span>.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
