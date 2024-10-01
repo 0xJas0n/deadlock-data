@@ -303,7 +303,7 @@
     },
     "upgrade_boxing_glove": {
         "Name": "Lifestrike",
-        "Description": "Your <span class=\"highlight\">Melee Attack</span> applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for 5% of the <span class=\"highlight\">Melee Damage</span> dealt plus 1. This heal is 4% effective vs non-heroes.",
+        "Description": "Your <span class=\"highlight\">Melee Attack</span> applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for 55% of the <span class=\"highlight\">Melee Damage</span> dealt plus 110. This heal is 40% effective vs non-heroes.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "Passive",
@@ -320,7 +320,7 @@
             "Melee",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"35\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"8\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"SlowDuration\": {\"value\": \"2.5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SlowPercent\": {\"value\": \"60\", \"style\": \"slow\"}}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee Attack</span> applies <span class=\\\"highlight\\\">Movement Slow</span> and <span class=\\\"highlight\\\">heals you</span> for 5% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 1. This heal is 4% effective vs non-heroes.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"35\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"8\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"SlowDuration\": {\"value\": \"2.5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SlowPercent\": {\"value\": \"60\", \"style\": \"slow\"}}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee Attack</span> applies <span class=\\\"highlight\\\">Movement Slow</span> and <span class=\\\"highlight\\\">heals you</span> for 55% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 110. This heal is 40% effective vs non-heroes.\"}]}",
         "Cooldown": 5,
         "Duration": "0",
         "CastRange": "0",
@@ -582,7 +582,7 @@
             "Healing",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"300\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"After not taking damage for <span class=\\\"highlight\\\">11s</span>, gain <span class=\\\"highlight\\\">4% Max Health Regen</span>.\"}, {\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"bullet_damage\"}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\"}}, \"Description\": \"When you are <span class=\\\"highlight\\\">above 7% health</span>, you have bonus <span class=\\\"highlight\\\">Weapon Damage</span> and <span class=\\\"highlight\\\">Movement Speed</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"300\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"After not taking damage for <span class=\\\"highlight\\\">11s</span>, gain <span class=\\\"highlight\\\">4% Max Health Regen</span>.\"}, {\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"bullet_damage\"}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\"}}, \"Description\": \"When you are <span class=\\\"highlight\\\">above 75% health</span>, you have bonus <span class=\\\"highlight\\\">Weapon Damage</span> and <span class=\\\"highlight\\\">Movement Speed</span>.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -1251,7 +1251,7 @@
             "ClipSize",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSize\": {\"value\": \"12\", \"style\": null, \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"30\", \"style\": \"\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"200\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"FervorMovespeed\": {\"value\": \"4m\", \"style\": \"move_speed\"}, \"FervorFireRate\": {\"value\": \"40\", \"style\": \"fireRate\"}, \"FervorBulletResist\": {\"value\": \"45\", \"style\": \"bullet_armor_up\"}}, \"Description\": \"While you are <span class=\\\"highlight\\\">below 4% health</span>, you gain stat bonuses.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSize\": {\"value\": \"12\", \"style\": null, \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"30\", \"style\": \"\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"200\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"FervorMovespeed\": {\"value\": \"4m\", \"style\": \"move_speed\"}, \"FervorFireRate\": {\"value\": \"40\", \"style\": \"fireRate\"}, \"FervorBulletResist\": {\"value\": \"45\", \"style\": \"bullet_armor_up\"}}, \"Description\": \"While you are <span class=\\\"highlight\\\">below 40% health</span>, you gain stat bonuses.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -1498,7 +1498,7 @@
     },
     "upgrade_healing_booster": {
         "Name": "Healing Booster",
-        "Description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">2%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">1%</span>.",
+        "Description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">25%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">15%</span>.",
         "Cost": "1250",
         "Tier": "2",
         "Activation": "Passive",
@@ -1509,7 +1509,7 @@
         "ShopFilters": [
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"6\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"2\", \"style\": \"healing\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Increases the effectiveness of your <span class=\\\"highlight\\\">healing</span> by <span class=\\\"highlight\\\">2%</span> and increases your <span class=\\\"highlight\\\">resistance to healing reduction</span> by <span class=\\\"highlight\\\">1%</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"6\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"2\", \"style\": \"healing\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Increases the effectiveness of your <span class=\\\"highlight\\\">healing</span> by <span class=\\\"highlight\\\">25%</span> and increases your <span class=\\\"highlight\\\">resistance to healing reduction</span> by <span class=\\\"highlight\\\">15%</span>.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -1564,7 +1564,7 @@
     },
     "upgrade_health_nova": {
         "Name": "Health Nova",
-        "Description": "<span class=\"highlight\">Heal</span> yourself and nearby allies. Heals an additional 2% per ally.",
+        "Description": "<span class=\"highlight\">Heal</span> yourself and nearby allies. Heals an additional 20% per ally.",
         "Cost": "1250",
         "Tier": "2",
         "Activation": "InstantCast",
@@ -1579,7 +1579,7 @@
         "ShopFilters": [
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}, \"TechPower\": {\"value\": \"4\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 64.0, \"style\": \"cooldown\", \"isNegative\": false}, \"RegenDuration\": {\"value\": \"2\", \"style\": \"duration\", \"isNegative\": false}, \"AuraRadius\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TotalHealthRegen\": {\"value\": \"260\", \"style\": \"healing\"}}, \"Description\": \"<span class=\\\"highlight\\\">Heal</span> yourself and nearby allies. Heals an additional 2% per ally.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}, \"TechPower\": {\"value\": \"4\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 64.0, \"style\": \"cooldown\", \"isNegative\": false}, \"RegenDuration\": {\"value\": \"2\", \"style\": \"duration\", \"isNegative\": false}, \"AuraRadius\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TotalHealthRegen\": {\"value\": \"260\", \"style\": \"healing\"}}, \"Description\": \"<span class=\\\"highlight\\\">Heal</span> yourself and nearby allies. Heals an additional 20% per ally.\"}]}",
         "Cooldown": 64.0,
         "Duration": "0",
         "CastRange": "0",
@@ -1708,7 +1708,7 @@
     },
     "upgrade_hollow_point_rounds": {
         "Name": "Hollow Point Ward",
-        "Description": "When you are <span class=\"highlight\">above 6% health</span>, deal additional <span class=\"highlight\">Weapon Damage</span>.",
+        "Description": "When you are <span class=\"highlight\">above 60% health</span>, deal additional <span class=\"highlight\">Weapon Damage</span>.",
         "Cost": "500",
         "Tier": "1",
         "Activation": "Passive",
@@ -1722,7 +1722,7 @@
             "MagicDamage",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"95\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"TechPower\": {\"value\": \"4\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"22\", \"style\": \"bullet_damage\"}}, \"Description\": \"When you are <span class=\\\"highlight\\\">above 6% health</span>, deal additional <span class=\\\"highlight\\\">Weapon Damage</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"95\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"TechPower\": {\"value\": \"4\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"22\", \"style\": \"bullet_damage\"}}, \"Description\": \"When you are <span class=\\\"highlight\\\">above 60% health</span>, deal additional <span class=\\\"highlight\\\">Weapon Damage</span>.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2023,7 +2023,7 @@
     },
     "upgrade_lifestrike_gauntlets": {
         "Name": "Melee Lifesteal",
-        "Description": "Your <span class=\"highlight\">Melee</span> attacks <span class=\"highlight\">heal you</span> for 2% of the <span class=\"highlight\">Melee Damage</span> dealt plus 9. This heal is 3% effective vs non-heroes.",
+        "Description": "Your <span class=\"highlight\">Melee</span> attacks <span class=\"highlight\">heal you</span> for 20% of the <span class=\"highlight\">Melee Damage</span> dealt plus 90. This heal is 30% effective vs non-heroes.",
         "Cost": "500",
         "Tier": "1",
         "Activation": "Passive",
@@ -2038,7 +2038,7 @@
             "Melee",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"12\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 7.5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee</span> attacks <span class=\\\"highlight\\\">heal you</span> for 2% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 9. This heal is 3% effective vs non-heroes.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"12\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 7.5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee</span> attacks <span class=\\\"highlight\\\">heal you</span> for 20% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 90. This heal is 30% effective vs non-heroes.\"}]}",
         "Cooldown": 7.5,
         "Duration": "0",
         "CastRange": "0",
@@ -2099,7 +2099,7 @@
     },
     "upgrade_magic_burst": {
         "Name": "Mystic Burst",
-        "Description": "Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal 8 damage or more in a single hit.",
+        "Description": "Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal 80 damage or more in a single hit.",
         "Cost": "500",
         "Tier": "1",
         "Activation": "Passive",
@@ -2113,7 +2113,7 @@
             "MagicDamage",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"40\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"6\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 6.25, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"Damage\": {\"value\": \"35\", \"style\": \"tech_damage\"}}, \"Description\": \"Abilities deal bonus <span class=\\\"highlight\\\">Spirit Damage</span> if they deal 8 damage or more in a single hit.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"40\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"6\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 6.25, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"Damage\": {\"value\": \"35\", \"style\": \"tech_damage\"}}, \"Description\": \"Abilities deal bonus <span class=\\\"highlight\\\">Spirit Damage</span> if they deal 80 damage or more in a single hit.\"}]}",
         "Cooldown": 6.25,
         "Duration": "0",
         "CastRange": "0",
@@ -2238,7 +2238,7 @@
     },
     "upgrade_magic_shock": {
         "Name": "Improved Burst",
-        "Description": "Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal 1 damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\"highlight\">5s</span> after taking damage from it.",
+        "Description": "Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal 125 damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\"highlight\">5s</span> after taking damage from it.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "Passive",
@@ -2254,7 +2254,7 @@
             "MagicDamage",
             "Disruption"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"100\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"8\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"MaxHealthDamage\": {\"value\": \"9\", \"style\": \"tech_damage\"}}, \"Description\": \"Abilities deal bonus <span class=\\\"highlight\\\">Spirit Damage</span> if they deal 1 damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\\\"highlight\\\">5s</span> after taking damage from it.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"100\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"8\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"MaxHealthDamage\": {\"value\": \"9\", \"style\": \"tech_damage\"}}, \"Description\": \"Abilities deal bonus <span class=\\\"highlight\\\">Spirit Damage</span> if they deal 125 damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\\\"highlight\\\">5s</span> after taking damage from it.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2564,7 +2564,7 @@
     },
     "upgrade_non_player_bonus": {
         "Name": "Monster Rounds",
-        "Description": "Gain additional <span class=\"highlight_weapon\">3% Weapon Damage</span> when attacking <span class=\"highlight\">Troopers</span>, <span class=\"highlight\">Neutrals</span> and <span class=\"highlight\">Bosses</span>.",
+        "Description": "Gain additional <span class=\"highlight_weapon\">35% Weapon Damage</span> when attacking <span class=\"highlight\">Troopers</span>, <span class=\"highlight\">Neutrals</span> and <span class=\"highlight\">Bosses</span>.",
         "Cost": "500",
         "Tier": "1",
         "Activation": "Passive",
@@ -2638,7 +2638,7 @@
     },
     "upgrade_pristine_emblem": {
         "Name": "Pristine Emblem",
-        "Description": "Your attacks have additional <span class=\"highlight\">Weapon Damage</span> against <span class=\"highlight\">enemies above 5% health</span>.",
+        "Description": "Your attacks have additional <span class=\"highlight\">Weapon Damage</span> against <span class=\"highlight\">enemies above 50% health</span>.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "Passive",
@@ -2654,7 +2654,7 @@
             "MagicDamage",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusBulletSpeedPercent\": {\"value\": \"35\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"TechPower\": {\"value\": \"12\", \"style\": null, \"isNegative\": false}, \"TechResist\": {\"value\": \"12\", \"style\": \"tech_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercentBonus\": {\"value\": \"25\", \"style\": \"bullet_damage\"}}, \"Description\": \"Your attacks have additional <span class=\\\"highlight\\\">Weapon Damage</span> against <span class=\\\"highlight\\\">enemies above 5% health</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusBulletSpeedPercent\": {\"value\": \"35\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"TechPower\": {\"value\": \"12\", \"style\": null, \"isNegative\": false}, \"TechResist\": {\"value\": \"12\", \"style\": \"tech_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BaseAttackDamagePercentBonus\": {\"value\": \"25\", \"style\": \"bullet_damage\"}}, \"Description\": \"Your attacks have additional <span class=\\\"highlight\\\">Weapon Damage</span> against <span class=\\\"highlight\\\">enemies above 50% health</span>.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -3000,7 +3000,7 @@
             "Healing",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"8\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"TechPower\": {\"value\": \"5\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"When an enemy uses an ability within 5m range from you, store one <span class=\\\"highlight\\\">Restoration Stack</span>.\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealPerStack\": {\"value\": \"35\", \"style\": \"healing\"}, \"MaxStacks\": {\"value\": \"15\", \"style\": \"\"}}, \"Description\": \"Consume all stacks to <span class=\\\"highlight\\\">heal target ally</span> and replenish a <span class=\\\"highlight\\\">stamina point</span>. Can be self-cast.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"8\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"TechPower\": {\"value\": \"5\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"When an enemy uses an ability within 50mm range from you, store one <span class=\\\"highlight\\\">Restoration Stack</span>.\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealPerStack\": {\"value\": \"35\", \"style\": \"healing\"}, \"MaxStacks\": {\"value\": \"15\", \"style\": \"\"}}, \"Description\": \"Consume all stacks to <span class=\\\"highlight\\\">heal target ally</span> and replenish a <span class=\\\"highlight\\\">stamina point</span>. Can be self-cast.\"}]}",
         "Cooldown": 30.0,
         "Duration": "0",
         "CastRange": "30m",
@@ -3919,7 +3919,7 @@
     },
     "upgrade_thermal_detonator": {
         "Name": "Alchemical Fire",
-        "Description": "Throw a flask that explodes on contact, creating an area that does increasing <span class=\"highlight\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\"highlight\">Weapon Damage</span> from your team.<br><br>Deals 4% less DPS vs non-heroes.",
+        "Description": "Throw a flask that explodes on contact, creating an area that does increasing <span class=\"highlight\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\"highlight\">Weapon Damage</span> from your team.<br><br>Deals 40% less DPS vs non-heroes.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "ActivationPress",
@@ -3933,7 +3933,7 @@
             "WeaponDamage",
             "MagicDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"225\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"14\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"TechPower\": {\"value\": \"11\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"DPSMax\": {\"value\": \"95\", \"style\": \"tech_damage\", \"isNegative\": false}, \"Radius\": {\"value\": \"10m\", \"style\": \"distance\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 28.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"DPS\": {\"value\": \"45\", \"style\": \"tech_damage\"}, \"BonusBaseWeaponDamageTaken\": {\"value\": \"50\", \"style\": \"\"}}, \"Description\": \"Throw a flask that explodes on contact, creating an area that does increasing <span class=\\\"highlight\\\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\\\"highlight\\\">Weapon Damage</span> from your team.<br><br>Deals 4% less DPS vs non-heroes.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"225\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"14\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"TechPower\": {\"value\": \"11\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"DPSMax\": {\"value\": \"95\", \"style\": \"tech_damage\", \"isNegative\": false}, \"Radius\": {\"value\": \"10m\", \"style\": \"distance\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 28.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"DPS\": {\"value\": \"45\", \"style\": \"tech_damage\"}, \"BonusBaseWeaponDamageTaken\": {\"value\": \"50\", \"style\": \"\"}}, \"Description\": \"Throw a flask that explodes on contact, creating an area that does increasing <span class=\\\"highlight\\\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\\\"highlight\\\">Weapon Damage</span> from your team.<br><br>Deals 40% less DPS vs non-heroes.\"}]}",
         "Cooldown": 28.0,
         "Duration": "5",
         "CastRange": "0",
