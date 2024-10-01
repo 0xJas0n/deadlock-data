@@ -24,7 +24,7 @@
     "BonusAttackRangePercent": "%",
     "BonusBaseWeaponDamageTaken": "%",
     "BonusBulletSpeedPercent": "%",
-    "BonusClipSize": "%",
+    "BonusClipSize": "",
     "BonusClipSizePercent": "%",
     "BonusFireRate": "%",
     "BonusFireRatePlayerUnit": "%",
