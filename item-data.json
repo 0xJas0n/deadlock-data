@@ -738,7 +738,7 @@
             "WeaponDamage",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"85\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"CloseRangeBonusDamageRange\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"CloseRangeBonusWeaponPower\": {\"value\": \"25\", \"style\": \"bullet_damage\", \"isConditional\": false}}, \"Description\": \"Deal additional <span class=\\\"highlight\\\">Weapon Damage</span> when in <span class=\\\"highlight\\\">close range</span> to your target.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"85\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"CloseRangeBonusDamageRange\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"CloseRangeBonusWeaponPower\": {\"value\": \"25\", \"style\": \"bullet_damage\", \"isConditional\": true}}, \"Description\": \"Deal additional <span class=\\\"highlight\\\">Weapon Damage</span> when in <span class=\\\"highlight\\\">close range</span> to your target.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2075,7 +2075,7 @@
             "WeaponDamage",
             "ClipSize"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}, \"BulletShieldMaxHealth\": {\"value\": \"140\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"LongRangeBonusWeaponPowerMinRange\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"LongRangeBonusWeaponPower\": {\"value\": \"40\", \"style\": \"bullet_damage\", \"isConditional\": false}}, \"Description\": \"Deal additional <span class=\\\"highlight\\\">Weapon Damage</span> when <span class=\\\"highlight\\\">beyond a minimum distance</span> from your target.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}, \"BulletShieldMaxHealth\": {\"value\": \"140\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"LongRangeBonusWeaponPowerMinRange\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"LongRangeBonusWeaponPower\": {\"value\": \"40\", \"style\": \"bullet_damage\", \"isConditional\": true}}, \"Description\": \"Deal additional <span class=\\\"highlight\\\">Weapon Damage</span> when <span class=\\\"highlight\\\">beyond a minimum distance</span> from your target.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
