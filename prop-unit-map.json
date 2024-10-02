@@ -157,7 +157,7 @@
     "TechDamagePercent": "%",
     "TechPower": "",
     "TechRangeMultiplier": "%",
-    "TechResist": "",
+    "TechResist": "%",
     "TechShieldMaxHealth": "",
     "TechShieldOnCast": "",
     "TotalHealthRegen": "",
