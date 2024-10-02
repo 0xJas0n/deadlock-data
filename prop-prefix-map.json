@@ -18,7 +18,7 @@
     "AuraRadius": "",
     "BaseAttackDamagePercent": "+",
     "BaseAttackDamagePercentAtMaxDuration": "",
-    "BaseAttackDamagePercentBonus": "",
+    "BaseAttackDamagePercentBonus": "+",
     "BonusAbilityCharges": "+",
     "BonusAbilityDurationPercent": "+",
     "BonusAttackRangePercent": "+",
