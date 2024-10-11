@@ -124,6 +124,7 @@
     "ProcBonusMagicDamage": "Spirit Damage",
     "ProcChance": "Proc Chance",
     "ProcCooldown": "Max Frequency Per Target",
+    "PulseRate": "Pulse Rate",
     "Radius": "Radius",
     "RegenDuration": "Regen Duration",
     "ReloadSpeedMultipler": "Reload Time",

@@ -124,6 +124,7 @@
     "ProcBonusMagicDamage": "",
     "ProcChance": "%",
     "ProcCooldown": "s",
+    "PulseRate": "s",
     "Radius": "",
     "RegenDuration": "s",
     "ReloadSpeedMultipler": "%",
