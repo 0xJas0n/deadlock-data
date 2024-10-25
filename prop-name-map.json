@@ -113,6 +113,7 @@
     "MaxHealthLossPercent": "Max Health",
     "MaxStacks": "Max Stacks",
     "MeleeDistanceScale": "Heavy Melee distance",
+    "MeleeResistPercent": "Melee Resist",
     "MovementSpeedBonusDuration": "Move Speed Duration",
     "MovementSpeedSlow": "Movement Slow",
     "NonImbuedBonusDuration": "Non-Imbued Ability Duration",

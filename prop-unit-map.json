@@ -113,6 +113,7 @@
     "MaxHealthLossPercent": "%",
     "MaxStacks": "",
     "MeleeDistanceScale": "%",
+    "MeleeResistPercent": "%",
     "MovementSpeedBonusDuration": "s",
     "MovementSpeedSlow": "%",
     "NonImbuedBonusDuration": "%",
