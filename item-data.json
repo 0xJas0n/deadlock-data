@@ -2325,8 +2325,8 @@
         "ShopFilters": [
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"10\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 45.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Launch yourself</span> high into the air. While in the air, you can use the active again to drop down faster.<br>Cannot be used for 5s if attacked by enemy Hero.\"}]}",
-        "Cooldown": 45.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"10\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 40.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Launch yourself</span> high into the air. While in the air, you can use the active again to drop down faster.<br>Cannot be used for 5s if attacked by enemy Hero.\"}]}",
+        "Cooldown": 40.0,
         "Duration": "0",
         "CastRange": "0",
         "UnitTargetLimit": "1",
