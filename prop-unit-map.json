@@ -84,6 +84,7 @@
     "FlyMoveSpeed": "/s",
     "FlyingBulletShield": "",
     "FlyingTechShield": "",
+    "GroundDashReductionPercent": "%",
     "HeadShotBonusDamage": "",
     "HeadShotCooldown": "s",
     "HealAmpReceivePenaltyPercent": "%",

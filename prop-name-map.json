@@ -84,6 +84,7 @@
     "FlyMoveSpeed": "Bonus Fly Speed",
     "FlyingBulletShield": "Bullet Shield Health",
     "FlyingTechShield": "Spirit Shield Health",
+    "GroundDashReductionPercent": "Dash Distance",
     "HeadShotBonusDamage": "Head Shot Bonus Damage",
     "HeadShotCooldown": "Cooldown",
     "HealAmpReceivePenaltyPercent": "Healing Reduction",
