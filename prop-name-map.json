@@ -125,7 +125,7 @@
     "OutgoingDamagePenaltyPercent": "Damage Penalty",
     "ProcBonusMagicDamage": "Spirit Damage",
     "ProcChance": "Proc Chance",
-    "ProcCooldown": "Max Frequency Per Target",
+    "ProcCooldown": "Max Frequency",
     "PulseRate": "Pulse Rate",
     "Radius": "Radius",
     "RegenDuration": "Regen Duration",
