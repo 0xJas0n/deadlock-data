@@ -12,7 +12,7 @@
         "ShopFilters": [
             "WeaponDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"10\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusClipSizePercent\": {\"value\": \"18\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 18.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BonusFireRate\": {\"value\": \"20\", \"style\": \"fireRate\", \"isConditional\": true}, \"BulletLifestealPercent\": {\"value\": \"20\", \"style\": \"healing\", \"isConditional\": true}}, \"Description\": \"While reloading, pressing [Reload] during the highlighted portion will <span class=\\\"highlight\\\">instantly finish your reload</span> and grant you <span class=\\\"highlight\\\">Fire Rate</span> and <span class=\\\"highlight\\\">Bullet Lifesteal</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"10\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusClipSizePercent\": {\"value\": \"18\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 18.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BonusFireRate\": {\"value\": \"20\", \"style\": \"fireRate\", \"isConditional\": true}, \"BulletLifestealPercent\": {\"value\": \"18\", \"style\": \"healing\", \"isConditional\": true}}, \"Description\": \"While reloading, pressing [Reload] during the highlighted portion will <span class=\\\"highlight\\\">instantly finish your reload</span> and grant you <span class=\\\"highlight\\\">Fire Rate</span> and <span class=\\\"highlight\\\">Bullet Lifesteal</span>.\"}]}",
         "Cooldown": 18.0,
         "Duration": "7",
         "CastRange": "0",
@@ -28,7 +28,7 @@
         "WeaponPower": "0",
         "BaseAttackDamagePercent": "10",
         "BonusClipSizePercent": "18",
-        "BulletLifestealPercent": "20",
+        "BulletLifestealPercent": "18",
         "BonusFireRate": "20",
         "BonusHealth": "50",
         "isComponent": []
@@ -70,6 +70,7 @@
         "Radius": "10m",
         "HeightOffGround": "50",
         "TickRate": "0.5",
+        "LingerDuration": "1",
         "BonusBaseWeaponDamageTaken": "50",
         "BulletShieldMaxHealth": "225",
         "BaseAttackDamagePercent": "14",
@@ -78,7 +79,7 @@
     },
     "upgrade_ammo_scavenger": {
         "Name": "Ammo Scavenger",
-        "Description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
+        "Description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.<br>At Max Stacks, gain bonus Sprint speed",
         "Cost": "500",
         "Tier": "1",
         "Activation": "Passive",
@@ -90,7 +91,7 @@
             "WeaponDamage",
             "ClipSize"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"15\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"40\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"45\", \"style\": \"duration\", \"isNegative\": false}, \"MaxStacks\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"AmmoPerSoul\": {\"value\": \"2\", \"style\": \"\", \"isConditional\": false}, \"SpiritPowerPerSoul\": {\"value\": \"1\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"Any time you secure or deny a Soul from an entity you <span class=\\\"highlight\\\">get ammo back</span> and gain stacking <span class=\\\"highlight\\\">Spirit Power</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"15\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"40\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"BonusSprintSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"45\", \"style\": \"duration\", \"isNegative\": false}, \"MaxStacks\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"AmmoPerSoul\": {\"value\": \"2\", \"style\": \"\", \"isConditional\": false}, \"SpiritPowerPerSoul\": {\"value\": \"1\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"Any time you secure or deny a Soul from an entity you <span class=\\\"highlight\\\">get ammo back</span> and gain stacking <span class=\\\"highlight\\\">Spirit Power</span>.<br>At Max Stacks, gain bonus Sprint speed\"}]}",
         "Cooldown": "0",
         "Duration": "45",
         "CastRange": "0",
@@ -109,6 +110,51 @@
         "AmmoPerSoul": "2",
         "SpiritPowerPerSoul": "1",
         "MaxStacks": "20",
+        "BonusSprintSpeed": "2m",
+        "isComponent": []
+    },
+    "upgrade_arcane_surge": {
+        "Name": "Arcane Surge",
+        "Description": "Your next <span class=\"highlight\">Dash-Jump</span> does not cost an extra stamina and the <span class=\"highlight\">next ability you use</span> will have bonus <span class=\"highlight\">Range, Duration,</span> and <span class=\"highlight\">Spirit Power</span>. Additionally, you gain <span class=\"highlight\">Fire Rate</span> and bonus <span class=\"highlight\">Ammo</span> until your next reload. Lasts up to s.",
+        "Cost": "3000",
+        "Tier": "3",
+        "Activation": "Passive",
+        "Slot": "Tech",
+        "Components": [
+            "upgrade_kinetic_sash"
+        ],
+        "ImagePath": "images/upgrades/mods_weapon/kinetic_sash.png",
+        "TargetTypes": null,
+        "ShopFilters": [
+            "MagicDamage",
+            "FireRate",
+            "ClipSize",
+            "Movement",
+            "Durability"
+        ],
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"Stamina\": {\"value\": \"1\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}, \"SlowResistancePercent\": {\"value\": \"15\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 10.5, \"style\": \"cooldown\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"20\", \"style\": \"fireRate\", \"isNegative\": false}, \"BonusClipSize\": {\"value\": \"5\", \"style\": null, \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TechRangeMultiplier\": {\"value\": \"20\", \"style\": \"distance\", \"isConditional\": true}, \"BonusAbilityDurationPercent\": {\"value\": \"20\", \"style\": \"duration\", \"isConditional\": true}, \"SpiritPower\": {\"value\": \"20\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"Your next <span class=\\\"highlight\\\">Dash-Jump</span> does not cost an extra stamina and the <span class=\\\"highlight\\\">next ability you use</span> will have bonus <span class=\\\"highlight\\\">Range, Duration,</span> and <span class=\\\"highlight\\\">Spirit Power</span>. Additionally, you gain <span class=\\\"highlight\\\">Fire Rate</span> and bonus <span class=\\\"highlight\\\">Ammo</span> until your next reload. Lasts up to 7s.\"}]}",
+        "Cooldown": 10.5,
+        "Duration": "7",
+        "CastRange": "0",
+        "UnitTargetLimit": "1",
+        "CastDelay": "0",
+        "ChannelTime": "0",
+        "PostCastDuration": "0",
+        "Charges": "0",
+        "CooldownBetweenCharge": "0",
+        "ChannelMoveSpeed": "50",
+        "ResourceCost": "0",
+        "TechPower": "0",
+        "WeaponPower": "0",
+        "BonusFireRate": "20",
+        "BonusClipSize": "5",
+        "BonusHealth": "100",
+        "Stamina": "1",
+        "SlowResistancePercent": "15",
+        "TechRangeMultiplier": "20",
+        "TechRadiusMultiplier": "20",
+        "BonusAbilityDurationPercent": "20",
+        "SpiritPower": "20",
         "isComponent": []
     },
     "upgrade_clip_size": {
@@ -160,7 +206,7 @@
             "ClipSize",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSize\": {\"value\": \"4\", \"style\": null, \"isNegative\": false}, \"BulletResist\": {\"value\": \"9\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DamageToStack\": {\"value\": \"100\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"MaxStacks\": {\"value\": 10, \"style\": null, \"isNegative\": false}, \"DamageDuration\": {\"value\": \"10\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"WeaponPowerPerStack\": {\"value\": \"5\", \"style\": \"bullet_damage\", \"isConditional\": false}}, \"Description\": \"Your <span class=\\\"highlight\\\">Weapon Damage</span> increases as you take sustained damage.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSize\": {\"value\": \"4\", \"style\": null, \"isNegative\": false}, \"BulletResist\": {\"value\": \"9\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DamageToStack\": {\"value\": \"100\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"MaxStacks\": {\"value\": 10, \"style\": null, \"isNegative\": false}, \"DamageDuration\": {\"value\": \"10\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"WeaponPowerPerStack\": {\"value\": \"6\", \"style\": \"bullet_damage\", \"isConditional\": false}}, \"Description\": \"Your <span class=\\\"highlight\\\">Weapon Damage</span> increases as you take sustained damage.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -176,7 +222,7 @@
         "WeaponPower": "0",
         "DamageDuration": "10",
         "DamageToStack": "100",
-        "WeaponPowerPerStack": "5",
+        "WeaponPowerPerStack": "6",
         "MaxStacks": 10,
         "BonusClipSize": "4",
         "BulletResist": "9",
@@ -267,7 +313,7 @@
             "Durability",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"BulletLifestealPercent\": {\"value\": \"28\", \"style\": \"healing\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"BulletLifestealPercent\": {\"value\": \"26\", \"style\": \"healing\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -281,7 +327,7 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "BulletLifestealPercent": "28",
+        "BulletLifestealPercent": "26",
         "BonusHealth": "75",
         "isComponent": []
     },
@@ -560,7 +606,7 @@
         "Duration": "3.25",
         "CastRange": "20m",
         "UnitTargetLimit": "1",
-        "CastDelay": "0",
+        "CastDelay": "0.1",
         "ChannelTime": "0",
         "PostCastDuration": "0",
         "Charges": "0",
@@ -587,7 +633,7 @@
         "ShopFilters": [
             "WeaponDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"6\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"StatusResistancePercent\": {\"value\": \"30\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Reduces the <span class=\\\"highlight\\\">duration</span> of all negative effects applied to you.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"8\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"StatusResistancePercent\": {\"value\": \"28\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Reduces the <span class=\\\"highlight\\\">duration</span> of all negative effects applied to you.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -601,8 +647,8 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "StatusResistancePercent": "30",
-        "BaseAttackDamagePercent": "6",
+        "StatusResistancePercent": "28",
+        "BaseAttackDamagePercent": "8",
         "BonusHealth": "125",
         "isComponent": [
             "upgrade_reduce_debuff_duration"
@@ -623,7 +669,7 @@
         "ShopFilters": [
             "WeaponDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"20\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"StatusResistancePercent\": {\"value\": \"40\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Reduces the <span class=\\\"highlight\\\">duration</span> of all negative effects applied to you.\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 45.0, \"style\": \"cooldown\", \"isNegative\": false}, \"ActiveBonusMoveSpeed\": {\"value\": \"3m\", \"style\": \"move_speed\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\\\"highlight\\\">move speed bonus</span>. <br>Cannot be used while <span class=\\\"highlight\\\">Stunned</span> or <span class=\\\"highlight\\\">Slept</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"20\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"StatusResistancePercent\": {\"value\": \"40\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Reduces the <span class=\\\"highlight\\\">duration</span> of all negative effects applied to you.\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 45.0, \"style\": \"cooldown\", \"isNegative\": false}, \"ActiveBonusMoveSpeed\": {\"value\": \"3m\", \"style\": \"move_speed\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"4\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"MaxHealthRegen\": {\"value\": \"10\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"<span class=\\\"highlight\\\">Purge all negative effects</span> currently applied to you. If any effects were removed, <span class=\\\"highlight\\\">heal yourself</span> and gain a <span class=\\\"highlight\\\">move speed bonus</span>. <br>Cannot be used while <span class=\\\"highlight\\\">Stunned</span> or <span class=\\\"highlight\\\">Slept</span>.\"}]}",
         "Cooldown": 45.0,
         "Duration": "0",
         "CastRange": "0",
@@ -640,7 +686,8 @@
         "StatusResistancePercent": "40",
         "BaseAttackDamagePercent": "20",
         "ActiveBonusMoveSpeed": "3m",
-        "BuffDuration": "3",
+        "BuffDuration": "4",
+        "MaxHealthRegen": "10",
         "BonusHealth": "125",
         "isComponent": []
     },
@@ -660,12 +707,12 @@
             "MagicDamage",
             "Disruption"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealthRegen\": {\"value\": \"1.5\", \"style\": \"healing\", \"isNegative\": false}, \"TechPower\": {\"value\": \"7\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusAbilityDurationPercent\": {\"value\": \"8\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCastRange\": {\"value\": \"15m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"10\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 33.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealAmpReceivePenaltyPercent\": {\"value\": \"-70\", \"style\": \"\", \"isConditional\": true}, \"DotHealthPercent\": {\"value\": \"1.0\", \"style\": \"tech_damage\", \"isConditional\": false}}, \"Description\": \"Reduces <span class=\\\"highlight\\\">healing</span> received of targeted enemy and inflicts <span class=\\\"highlight\\\">damage over time</span> of their current health.<br>Decay's damage is non-lethal.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealthRegen\": {\"value\": \"1.5\", \"style\": \"healing\", \"isNegative\": false}, \"TechPower\": {\"value\": \"7\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusAbilityDurationPercent\": {\"value\": \"8\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCastRange\": {\"value\": \"15m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"10\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 33.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealAmpReceivePenaltyPercent\": {\"value\": \"-55\", \"style\": \"\", \"isConditional\": true}, \"DotHealthPercent\": {\"value\": \"1.4\", \"style\": \"tech_damage\", \"isConditional\": false}}, \"Description\": \"Reduces <span class=\\\"highlight\\\">healing</span> received of targeted enemy and inflicts <span class=\\\"highlight\\\">damage over time</span> of their current health.<br>Decay's damage is non-lethal.\"}]}",
         "Cooldown": 33.0,
         "Duration": "10",
         "CastRange": "15m",
         "UnitTargetLimit": "1",
-        "CastDelay": "0.25",
+        "CastDelay": "0.1",
         "ChannelTime": "0",
         "PostCastDuration": "0",
         "Charges": "0",
@@ -674,10 +721,10 @@
         "ResourceCost": "0",
         "TechPower": "7",
         "WeaponPower": "0",
-        "HealAmpReceivePenaltyPercent": "-70",
-        "HealAmpRegenPenaltyPercent": "-70",
+        "HealAmpReceivePenaltyPercent": "-55",
+        "HealAmpRegenPenaltyPercent": "-55",
         "TickRate": "1.0",
-        "DotHealthPercent": "1.0",
+        "DotHealthPercent": "1.4",
         "BonusHealthRegen": "1.5",
         "BonusAbilityDurationPercent": "8",
         "isComponent": []
@@ -698,7 +745,7 @@
             "Durability",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCastRange\": {\"value\": \"35m\", \"style\": \"range\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SaviorBulletShieldHealth\": {\"value\": \"260\", \"style\": \"bullet_armor_up\", \"isConditional\": false}, \"SaviorMagicShieldHealth\": {\"value\": \"260\", \"style\": \"tech_armor_up\", \"isConditional\": false}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isConditional\": false}}, \"Description\": \"Provide the target with <span class=\\\"highlight\\\">Bullet Shield, Spirit Shield, and Move Speed</span>. Can be self-cast.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"8\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCastRange\": {\"value\": \"35m\", \"style\": \"range\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SaviorBulletShieldHealth\": {\"value\": \"260\", \"style\": \"bullet_armor_up\", \"isConditional\": true}, \"SaviorMagicShieldHealth\": {\"value\": \"260\", \"style\": \"tech_armor_up\", \"isConditional\": true}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isConditional\": false}}, \"Description\": \"Provide the target with <span class=\\\"highlight\\\">Bullet Shield, Spirit Shield, and Move Speed</span>. Can be self-cast.\"}]}",
         "Cooldown": 30.0,
         "Duration": "0",
         "CastRange": "35m",
@@ -710,14 +757,15 @@
         "CooldownBetweenCharge": "0",
         "ChannelMoveSpeed": "20m",
         "ResourceCost": "0",
-        "TechPower": "6",
+        "TechPower": "0",
         "WeaponPower": "0",
         "BuffDuration": "5",
         "SaviorBulletShieldHealth": "260",
         "SaviorMagicShieldHealth": "260",
         "BonusMoveSpeed": "2m",
-        "BonusSprintSpeed": "1m",
         "BonusHealth": "50",
+        "TechRangeMultiplier": "8",
+        "TechRadiusMultiplier": "8",
         "isComponent": []
     },
     "upgrade_diviners_kevlar": {
@@ -735,7 +783,7 @@
             "Durability",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"20\", \"style\": \"healing\", \"isNegative\": false}, \"CooldownReduction\": {\"value\": \"12\", \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"BuffDuration\": {\"value\": \"15\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 64.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BulletShieldOnCast\": {\"value\": \"700\", \"style\": \"bullet_armor_up\", \"isConditional\": true}, \"TechShieldOnCast\": {\"value\": \"700\", \"style\": \"tech_armor_up\", \"isConditional\": true}, \"TechPower\": {\"value\": \"40\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"Upon casting an <span class=\\\"highlight\\\">ultimate ability</span> gain temporary <span class=\\\"highlight\\\">Bullet Shield, Spirit Shield,</span> and <span class=\\\"highlight\\\">Spirit Power</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"CooldownReduction\": {\"value\": \"12\", \"style\": \"cooldown\", \"isNegative\": false}, \"BonusAbilityDurationPercent\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"BuffDuration\": {\"value\": \"15\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 64.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BulletShieldOnCast\": {\"value\": \"700\", \"style\": \"bullet_armor_up\", \"isConditional\": true}, \"TechShieldOnCast\": {\"value\": \"700\", \"style\": \"tech_armor_up\", \"isConditional\": true}, \"TechPower\": {\"value\": \"40\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"Upon casting an <span class=\\\"highlight\\\">ultimate ability</span> gain temporary <span class=\\\"highlight\\\">Bullet Shield, Spirit Shield,</span> and <span class=\\\"highlight\\\">Spirit Power</span>.\"}]}",
         "Cooldown": 64.0,
         "Duration": "0",
         "CastRange": "0",
@@ -749,11 +797,11 @@
         "ResourceCost": "0",
         "TechPower": "40",
         "WeaponPower": "0",
-        "LifestealPercentHero": "20",
         "BulletShieldOnCast": "700",
         "TechShieldOnCast": "700",
         "BuffDuration": "15",
         "CooldownReduction": "12",
+        "BonusAbilityDurationPercent": "7",
         "isComponent": []
     },
     "upgrade_arcane_extension": {
@@ -808,7 +856,7 @@
         "Duration": "0",
         "CastRange": "0",
         "UnitTargetLimit": "1",
-        "CastDelay": "0.3",
+        "CastDelay": "0.2",
         "ChannelTime": "0",
         "PostCastDuration": "0",
         "Charges": "0",
@@ -1003,7 +1051,7 @@
     },
     "upgrade_self_bubble": {
         "Name": "Ethereal Shift",
-        "Description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">move speed and spirit resist</span>.",
+        "Description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">move speed, spirit and spirit resist</span>.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "InstantCast",
@@ -1014,7 +1062,7 @@
         "ShopFilters": [
             "FireRate"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"6\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"40\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusMoveSpeed\": {\"value\": \"3m\", \"style\": \"move_speed\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 32.0, \"style\": \"cooldown\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"AbilityDuration\": {\"value\": \"3.5\", \"style\": \"duration\", \"isConditional\": false}}, \"Description\": \"You enter a void state and become <span class=\\\"highlight\\\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\\\"highlight\\\">move speed and spirit resist</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"6\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"BonusTechPower\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}, \"TechResist\": {\"value\": \"40\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusMoveSpeed\": {\"value\": \"3m\", \"style\": \"move_speed\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 32.0, \"style\": \"cooldown\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"AbilityDuration\": {\"value\": \"3.5\", \"style\": \"duration\", \"isConditional\": false}}, \"Description\": \"You enter a void state and become <span class=\\\"highlight\\\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\\\"highlight\\\">move speed, spirit and spirit resist</span>.\"}]}",
         "Cooldown": 32.0,
         "Duration": "3.5",
         "CastRange": "0",
@@ -1034,6 +1082,7 @@
         "LiftHeight": "120",
         "MoveSpeedMax": "0m",
         "BonusMoveSpeed": "3m",
+        "BonusTechPower": "20",
         "isComponent": []
     },
     "upgrade_extra_charge": {
@@ -1135,7 +1184,9 @@
         "WeaponPower": "0",
         "BonusHealthRegen": "3",
         "BonusClipSizePercent": "10",
-        "isComponent": []
+        "isComponent": [
+            "upgrade_return_fire"
+        ]
     },
     "upgrade_improved_spirit": {
         "Name": "Extra Spirit",
@@ -1331,15 +1382,19 @@
         "Tier": "4",
         "Activation": "Passive",
         "Slot": "Weapon",
-        "Components": null,
+        "Components": [
+            "upgrade_slowing_bullets"
+        ],
         "ImagePath": "images/upgrades/mods_weapon/glass_cannon.png",
-        "TargetTypes": null,
+        "TargetTypes": [
+            "HeroEnemy"
+        ],
         "ShopFilters": [
             "WeaponDamage",
             "ClipSize",
             "FireRate"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"70\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"10\", \"style\": null, \"isNegative\": false}, \"BonusMoveSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"MaxHealthLossPercent\": {\"value\": \"-12\", \"style\": \"health\", \"isNegative\": true}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"WeaponPowerPerKill\": {\"value\": \"10\", \"style\": \"\", \"isConditional\": true}}, \"Description\": \"Each hero kill grants <span class=\\\"highlight\\\">permanent Weapon Damage</span> (up to a max of 7 times).  Death results in the loss of 1 stack.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"SlowPercent\": {\"value\": \"25\", \"style\": \"slow\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"70\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"10\", \"style\": null, \"isNegative\": false}, \"BonusMoveSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"MaxHealthLossPercent\": {\"value\": \"-12\", \"style\": \"health\", \"isNegative\": true}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"WeaponPowerPerKill\": {\"value\": \"10\", \"style\": \"\", \"isConditional\": true}}, \"Description\": \"Each hero kill grants <span class=\\\"highlight\\\">permanent Weapon Damage</span> (up to a max of 7 times).  Death results in the loss of 1 stack.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -1361,11 +1416,13 @@
         "BonusMoveSpeed": "1m",
         "WeaponPowerPerKill": "10",
         "MaxStacks": "7",
+        "SlowPercent": "25",
+        "SlowDuration": "1.3",
         "isComponent": []
     },
     "upgrade_headhunter": {
         "Name": "Headhunter",
-        "Description": "Landing a headshot deals bonus damage, heals you for a portion of your Max HP, and briefly grants you bonus move speed.",
+        "Description": "Landing a <span class=\"highlight\">headshot</span> deals bonus damage, heals you for a portion of your Max HP, and briefly grants you bonus move speed.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "Passive",
@@ -1378,7 +1435,7 @@
         "ShopFilters": [
             "WeaponDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"15\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BulletShieldMaxHealth\": {\"value\": \"150\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"5\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": \"6\", \"style\": \"cooldown\", \"isNegative\": false}, \"MovementSpeedBonusDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HeadShotBonusDamage\": {\"value\": \"140\", \"style\": \"bullet_damage\", \"isConditional\": false}, \"HealPercentPerHeadshot\": {\"value\": \"8\", \"style\": \"healing\", \"isConditional\": false}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isConditional\": true}}, \"Description\": \"Landing a headshot deals bonus damage, heals you for a portion of your Max HP, and briefly grants you bonus move speed.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"15\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BulletShieldMaxHealth\": {\"value\": \"150\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"5\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": \"6\", \"style\": \"cooldown\", \"isNegative\": false}, \"MovementSpeedBonusDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HeadShotBonusDamage\": {\"value\": \"130\", \"style\": \"bullet_damage\", \"isConditional\": false}, \"HealPercentPerHeadshot\": {\"value\": \"7\", \"style\": \"healing\", \"isConditional\": false}, \"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isConditional\": true}}, \"Description\": \"Landing a <span class=\\\"highlight\\\">headshot</span> deals bonus damage, heals you for a portion of your Max HP, and briefly grants you bonus move speed.\"}]}",
         "Cooldown": "6",
         "Duration": "0",
         "CastRange": "0",
@@ -1392,10 +1449,10 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "HeadShotBonusDamage": "140",
+        "HeadShotBonusDamage": "130",
         "BaseAttackDamagePercent": "15",
         "BulletShieldMaxHealth": "150",
-        "HealPercentPerHeadshot": "8",
+        "HealPercentPerHeadshot": "7",
         "BonusMoveSpeed": "2m",
         "MovementSpeedBonusDuration": "3",
         "BonusFireRate": "5",
@@ -1453,9 +1510,9 @@
             "Disruption",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealAmpReceivePenaltyPercent\": {\"value\": \"-45\", \"style\": \"\", \"isConditional\": true}, \"HealOnKill\": {\"value\": \"350\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"Your <span class=\\\"highlight\\\">Spirit Damage</span> applies <span class=\\\"highlight\\\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealAmpReceivePenaltyPercent\": {\"value\": \"-40\", \"style\": \"\", \"isConditional\": true}, \"HealOnKill\": {\"value\": \"350\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"Your <span class=\\\"highlight\\\">Spirit Damage</span> applies <span class=\\\"highlight\\\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal.\"}]}",
         "Cooldown": "0",
-        "Duration": "6",
+        "Duration": "7",
         "CastRange": "0",
         "UnitTargetLimit": "1",
         "CastDelay": "0",
@@ -1467,8 +1524,8 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "HealAmpReceivePenaltyPercent": "-45",
-        "HealAmpRegenPenaltyPercent": "-45",
+        "HealAmpReceivePenaltyPercent": "-40",
+        "HealAmpRegenPenaltyPercent": "-40",
         "HealOnKill": "350",
         "BonusHealth": "75",
         "isComponent": []
@@ -1524,7 +1581,7 @@
         "ShopFilters": [
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"8\", \"style\": \"distance\", \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 64.0, \"style\": \"cooldown\", \"isNegative\": false}, \"RegenDuration\": {\"value\": \"2\", \"style\": \"duration\", \"isNegative\": false}, \"AuraRadius\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TotalHealthRegen\": {\"value\": \"260\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"<span class=\\\"highlight\\\">Heal</span> yourself and nearby allies. Heals an additional 20% per ally.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 64.0, \"style\": \"cooldown\", \"isNegative\": false}, \"RegenDuration\": {\"value\": \"2\", \"style\": \"duration\", \"isNegative\": false}, \"AuraRadius\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TotalHealthRegen\": {\"value\": \"260\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"<span class=\\\"highlight\\\">Heal</span> yourself and nearby allies. Heals an additional 20% per ally.\"}]}",
         "Cooldown": 64.0,
         "Duration": "0",
         "CastRange": "0",
@@ -1544,8 +1601,6 @@
         "AuraRadius": "15m",
         "BaseAttackDamagePercent": "12",
         "BonusHealth": "100",
-        "TechRangeMultiplier": "8",
-        "TechRadiusMultiplier": "6",
         "isComponent": []
     },
     "upgrade_health_stimpak": {
@@ -1602,8 +1657,8 @@
             "Healing",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletLifestealPercent\": {\"value\": \"20\", \"style\": \"healing\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"150\", \"style\": null, \"isNegative\": false}, \"BonusMoveSpeed\": {\"value\": \"1m\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"Radius\": {\"value\": \"20m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BonusFireRatePlayerUnit\": {\"value\": \"40\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"Provides <span class=\\\"highlight\\\">Fire Rate</span> to nearby player minions.\"}], \"Active\": [{\"AbilityProperties\": {\"ActiveRadius\": {\"value\": \"30m\", \"style\": \"distance\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 25.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"ActiveBonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isConditional\": true}, \"BonusFireRate\": {\"value\": \"25\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"Provides bonus <span class=\\\"highlight\\\">Move Speed</span> and <span class=\\\"highlight\\\">Fire Rate</span> to you and nearby allies.\"}]}",
-        "Cooldown": 25.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletLifestealPercent\": {\"value\": \"18\", \"style\": \"healing\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"150\", \"style\": null, \"isNegative\": false}, \"BonusMoveSpeed\": {\"value\": \"1m\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"Radius\": {\"value\": \"20m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BonusFireRatePlayerUnit\": {\"value\": \"40\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"Provides <span class=\\\"highlight\\\">Fire Rate</span> to nearby player minions.\"}], \"Active\": [{\"AbilityProperties\": {\"ActiveRadius\": {\"value\": \"30m\", \"style\": \"distance\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 20.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"ActiveBonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isConditional\": true}, \"BonusFireRate\": {\"value\": \"25\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"Provides bonus <span class=\\\"highlight\\\">Move Speed</span> and <span class=\\\"highlight\\\">Fire Rate</span> to you and nearby allies.\"}]}",
+        "Cooldown": 20.0,
         "Duration": "6",
         "CastRange": "0",
         "UnitTargetLimit": "1",
@@ -1616,7 +1671,7 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "BulletLifestealPercent": "20",
+        "BulletLifestealPercent": "18",
         "BonusFireRate": "25",
         "BonusFireRatePlayerUnit": "40",
         "Radius": "20m",
@@ -1714,7 +1769,7 @@
             "Disruption",
             "ClipSize"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"150\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"Radius\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BulletArmorReduction\": {\"value\": \"-9\", \"style\": \"bullet_armor_down\", \"isConditional\": true}, \"FireRateSlow\": {\"value\": \"10\", \"style\": \"\", \"isConditional\": true}}, \"Description\": \"Reduces nearby enemies' <span class=\\\"highlight\\\">Bullet Resist and Fire Rate</span>. If there is only one enemy hero nearby, this <span class=\\\"highlight\\\">effect is tripled</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"150\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"Radius\": {\"value\": \"15m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BulletArmorReduction\": {\"value\": \"-9\", \"style\": \"bullet_armor_down\", \"isConditional\": true}, \"FireRateSlow\": {\"value\": \"9\", \"style\": \"\", \"isConditional\": true}}, \"Description\": \"Reduces nearby enemies' <span class=\\\"highlight\\\">Bullet Resist and Fire Rate</span>. If there is only one enemy hero nearby, this <span class=\\\"highlight\\\">effect is tripled</span>.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -1731,7 +1786,7 @@
         "BonusHealth": "150",
         "Radius": "15m",
         "BulletArmorReduction": "-9",
-        "FireRateSlow": "10",
+        "FireRateSlow": "9",
         "SingleTargetPlayerMultiplier": "3",
         "isComponent": []
     },
@@ -1896,7 +1951,7 @@
             "Movement",
             "MagicDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealthRegen\": {\"value\": \"3\", \"style\": \"healing\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"TechPower\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealthRegen\": {\"value\": \"3\", \"style\": \"healing\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"TechPower\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -1912,7 +1967,7 @@
         "WeaponPower": "0",
         "BonusHealthRegen": "3",
         "BonusSprintSpeed": "1m",
-        "BonusHealth": "100",
+        "BonusHealth": "125",
         "isComponent": [
             "upgrade_mega_spirit"
         ]
@@ -1963,8 +2018,8 @@
         "ShopFilters": [
             "MagicDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}, \"BonusClipSizePercent\": {\"value\": \"10\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 37.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BonusSpirit\": {\"value\": \"16\", \"style\": \"tech_damage\", \"isConditional\": true}, \"AbilityLifestealPercentHero\": {\"value\": \"20\", \"style\": \"healing\", \"isConditional\": true}}, \"Description\": \"Gain <span class=\\\"highlight\\\">Spirit Power</span> and <span class=\\\"highlight\\\">Spirit Lifesteal</span>.\"}]}",
-        "Cooldown": 37.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}, \"BonusClipSizePercent\": {\"value\": \"10\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 32.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"BonusSpirit\": {\"value\": \"16\", \"style\": \"tech_damage\", \"isConditional\": true}, \"AbilityLifestealPercentHero\": {\"value\": \"20\", \"style\": \"healing\", \"isConditional\": true}}, \"Description\": \"Gain <span class=\\\"highlight\\\">Spirit Power</span> and <span class=\\\"highlight\\\">Spirit Lifesteal</span>.\"}]}",
+        "Cooldown": 32.0,
         "Duration": "6",
         "CastRange": "0",
         "UnitTargetLimit": "1",
@@ -2089,7 +2144,9 @@
         "BonusClipSize": "5",
         "BonusHealth": "100",
         "BonusHealthRegen": "1.5",
-        "isComponent": []
+        "isComponent": [
+            "upgrade_arcane_surge"
+        ]
     },
     "upgrade_target_stun": {
         "Name": "Knockdown",
@@ -2112,7 +2169,7 @@
         "Duration": "0",
         "CastRange": "45m",
         "UnitTargetLimit": "1",
-        "CastDelay": "0.25",
+        "CastDelay": "0.1",
         "ChannelTime": "0",
         "PostCastDuration": "0",
         "Charges": "0",
@@ -2143,7 +2200,7 @@
             "MagicDamage",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"175\", \"style\": \"health\", \"isNegative\": false}, \"CooldownReduction\": {\"value\": \"12\", \"style\": \"cooldown\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"20\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"35\", \"style\": \"healing\", \"isNegative\": false}, \"BulletLifestealPercent\": {\"value\": \"35\", \"style\": \"healing\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"175\", \"style\": \"health\", \"isNegative\": false}, \"CooldownReduction\": {\"value\": \"12\", \"style\": \"cooldown\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"20\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"32\", \"style\": \"healing\", \"isNegative\": false}, \"BulletLifestealPercent\": {\"value\": \"32\", \"style\": \"healing\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2157,8 +2214,8 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "LifestealPercentHero": "35",
-        "BulletLifestealPercent": "35",
+        "LifestealPercentHero": "32",
+        "BulletLifestealPercent": "32",
         "BaseAttackDamagePercent": "20",
         "BonusHealth": "175",
         "CooldownReduction": "12",
@@ -2166,7 +2223,7 @@
     },
     "upgrade_boxing_glove": {
         "Name": "Lifestrike",
-        "Description": "Your <span class=\"highlight\">Melee Attack</span> applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for 65% of the <span class=\"highlight\">Melee Damage</span> dealt plus 110. This heal is 40% effective vs non-heroes.",
+        "Description": "Your <span class=\"highlight\">Melee Attack</span> applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for 55% of the <span class=\"highlight\">Melee Damage</span> dealt plus 110. This heal is 40% effective vs non-heroes.",
         "Cost": "3000",
         "Tier": "3",
         "Activation": "Passive",
@@ -2183,7 +2240,7 @@
             "Melee",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"35\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"10\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"SlowDuration\": {\"value\": \"2.5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SlowPercent\": {\"value\": \"60\", \"style\": \"slow\", \"isConditional\": true}}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee Attack</span> applies <span class=\\\"highlight\\\">Movement Slow</span> and <span class=\\\"highlight\\\">heals you</span> for 65% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 110. This heal is 40% effective vs non-heroes.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"35\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"10\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"SlowDuration\": {\"value\": \"2.5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SlowPercent\": {\"value\": \"60\", \"style\": \"slow\", \"isConditional\": true}}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee Attack</span> applies <span class=\\\"highlight\\\">Movement Slow</span> and <span class=\\\"highlight\\\">heals you</span> for 55% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 110. This heal is 40% effective vs non-heroes.\"}]}",
         "Cooldown": 5,
         "Duration": "0",
         "CastRange": "0",
@@ -2201,7 +2258,7 @@
         "SlowDuration": "2.5",
         "BonusMeleeDamagePercent": "35",
         "LifestealHeal": "110",
-        "LifestealHealPercent": "65",
+        "LifestealHealPercent": "55",
         "BonusHealth": "125",
         "BulletResist": "10",
         "NonHeroHealPct": "40",
@@ -2260,7 +2317,7 @@
             "WeaponDamage",
             "ClipSize"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"ProcChance\": {\"value\": \"35\", \"style\": null, \"isNegative\": false}, \"SlowDuration\": {\"value\": \"1.5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"CritDamagePercent\": {\"value\": \"90\", \"style\": \"bullet_damage\", \"isConditional\": false}, \"SlowPercent\": {\"value\": \"30\", \"style\": \"slow\", \"isConditional\": true}}, \"Description\": \"Your bullets have a chance to be empowered, causing them to deal <span class=\\\"highlight\\\">bonus weapon damage</span> and <span class=\\\"highlight\\\">Slow</span> on hit.<br><span class=\\\"diminish\\\">Bonus damage cannot Crit.</span>\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"150\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BonusClipSizePercent\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"ProcChance\": {\"value\": \"35\", \"style\": null, \"isNegative\": false}, \"SlowDuration\": {\"value\": \"1.5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"CritDamagePercent\": {\"value\": \"110\", \"style\": \"bullet_damage\", \"isConditional\": false}, \"SlowPercent\": {\"value\": \"30\", \"style\": \"slow\", \"isConditional\": true}}, \"Description\": \"Your bullets have a chance to be empowered, causing them to deal <span class=\\\"highlight\\\">bonus weapon damage</span> and <span class=\\\"highlight\\\">Slow</span> on hit.<br><span class=\\\"diminish\\\">Bonus damage cannot Crit.</span>\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2278,8 +2335,9 @@
         "ProcChance": "35",
         "SlowPercent": "30",
         "SlowDuration": "1.5",
-        "CritDamagePercent": "90",
+        "CritDamagePercent": "110",
         "BonusClipSizePercent": "30",
+        "BulletShieldMaxHealth": "150",
         "isComponent": []
     },
     "upgrade_magic_carpet": {
@@ -2295,7 +2353,7 @@
         "ShopFilters": [
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusAbilityDurationPercent\": {\"value\": \"10\", \"style\": \"duration\", \"isNegative\": false}, \"TechPower\": {\"value\": \"15\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"150\", \"style\": \"health\", \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"10\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}, \"FlyMoveSpeed\": {\"value\": \"6m\", \"style\": \"move_speed\", \"isNegative\": false}, \"SummonDuration\": {\"value\": \"1.3\", \"style\": null, \"isNegative\": false}, \"ShieldDuration\": {\"value\": \"16\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"FlyingBulletShield\": {\"value\": \"400\", \"style\": \"bullet_armor_up\", \"isConditional\": false}, \"FlyingTechShield\": {\"value\": \"400\", \"style\": \"tech_armor_up\", \"isConditional\": false}}, \"Description\": \"Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusAbilityDurationPercent\": {\"value\": \"10\", \"style\": \"duration\", \"isNegative\": false}, \"TechPower\": {\"value\": \"15\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"150\", \"style\": \"health\", \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"10\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"7\", \"style\": \"duration\", \"isNegative\": false}, \"FlyMoveSpeed\": {\"value\": \"6m\", \"style\": \"move_speed\", \"isNegative\": false}, \"SummonDuration\": {\"value\": \"1.3\", \"style\": null, \"isNegative\": false}, \"ShieldDuration\": {\"value\": \"16\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"FlyingBulletShield\": {\"value\": \"400\", \"style\": \"bullet_armor_up\", \"isConditional\": true}, \"FlyingTechShield\": {\"value\": \"400\", \"style\": \"tech_armor_up\", \"isConditional\": true}}, \"Description\": \"Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet.\"}]}",
         "Cooldown": 32.0,
         "Duration": "7",
         "CastRange": "0",
@@ -2335,7 +2393,7 @@
         "ShopFilters": [
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"10\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 40.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Launch yourself</span> high into the air. While in the air, you can use the active again to drop down faster.<br>Cannot be used for 5s if attacked by enemy Hero.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"10\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"TechResist\": {\"value\": \"6\", \"style\": \"tech_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 40.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Launch yourself</span> high into the air. While in the air, you can use the active again to drop down faster.<br>Cannot be used for 5s if attacked by enemy Hero.\"}]}",
         "Cooldown": 40.0,
         "Duration": "0",
         "CastRange": "0",
@@ -2362,6 +2420,7 @@
         "ImpactHeight": "2m",
         "MinAimAngle": "30",
         "BonusHealth": "125",
+        "TechResist": "6",
         "isComponent": []
     },
     "upgrade_melee_charge": {
@@ -2404,7 +2463,7 @@
     },
     "upgrade_lifestrike_gauntlets": {
         "Name": "Melee Lifesteal",
-        "Description": "Your <span class=\"highlight\">Melee</span> attacks <span class=\"highlight\">heal you</span> for 20% of the <span class=\"highlight\">Melee Damage</span> dealt plus 90. This heal is 30% effective vs non-heroes.",
+        "Description": "Your <span class=\"highlight\">Melee</span> attacks <span class=\"highlight\">heal you</span> for 18% of the <span class=\"highlight\">Melee Damage</span> dealt plus 90. This heal is 30% effective vs non-heroes.",
         "Cost": "500",
         "Tier": "1",
         "Activation": "Passive",
@@ -2419,7 +2478,7 @@
             "Melee",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"12\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 7.5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee</span> attacks <span class=\\\"highlight\\\">heal you</span> for 20% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 90. This heal is 30% effective vs non-heroes.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"12\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"3\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 7.5, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Your <span class=\\\"highlight\\\">Melee</span> attacks <span class=\\\"highlight\\\">heal you</span> for 18% of the <span class=\\\"highlight\\\">Melee Damage</span> dealt plus 90. This heal is 30% effective vs non-heroes.\"}]}",
         "Cooldown": 7.5,
         "Duration": "0",
         "CastRange": "0",
@@ -2435,8 +2494,9 @@
         "WeaponPower": "0",
         "BonusMeleeDamagePercent": "12",
         "LifestrikeHeal": "90",
-        "LifestrikeHealPercent": "20",
+        "LifestrikeHealPercent": "18",
         "BonusHealth": "75",
+        "BulletResist": "3",
         "NonHeroHealPct": "30",
         "isComponent": [
             "upgrade_boxing_glove"
@@ -2456,7 +2516,7 @@
             "Durability",
             "FireRate"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"TechPower\": {\"value\": \"8\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"8\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 28.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"3.5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Become <span class=\\\"highlight\\\">immune to bullets</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"TechPower\": {\"value\": \"8\", \"style\": \"tech_damage\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"8\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"ActiveMoveSpeedPenalty\": {\"value\": \"-1.5m\", \"style\": \"move_speed\", \"isNegative\": true}, \"AbilityCooldown\": {\"value\": 28.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"3.5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Become <span class=\\\"highlight\\\">immune to bullets</span>.\"}]}",
         "Cooldown": 28.0,
         "Duration": "3.5",
         "CastRange": "0",
@@ -2472,6 +2532,7 @@
         "WeaponPower": "0",
         "BonusFireRate": "8",
         "BonusHealth": "125",
+        "ActiveMoveSpeedPenalty": "-1.5m",
         "isComponent": []
     },
     "upgrade_non_player_bonus": {
@@ -2489,7 +2550,7 @@
             "Durability",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"50\", \"style\": \"health\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"1\", \"style\": \"healing\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"NonPlayerBonusWeaponPower\": {\"value\": \"30\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"NonPlayerBulletResist\": {\"value\": \"25\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"30\", \"style\": \"health\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"1\", \"style\": \"healing\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"NonPlayerBonusWeaponPower\": {\"value\": \"30\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"NonPlayerBulletResist\": {\"value\": \"25\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2504,7 +2565,7 @@
         "TechPower": "0",
         "WeaponPower": "0",
         "NonPlayerBonusWeaponPower": "30",
-        "BonusHealth": "50",
+        "BonusHealth": "30",
         "BonusHealthRegen": "1",
         "NonPlayerBulletResist": "25",
         "isComponent": []
@@ -2595,7 +2656,7 @@
             "MagicDamage",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"14\", \"style\": \"healing\", \"isNegative\": false}, \"TechResist\": {\"value\": \"14\", \"style\": null, \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"14\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"Radius\": {\"value\": \"16m\", \"style\": \"distance\", \"isNegative\": false}, \"DelayDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 6.25, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TechDamagePercent\": {\"value\": \"40\", \"style\": \"tech_damage\", \"isConditional\": true}, \"MovementSpeedSlow\": {\"value\": \"40\", \"style\": \"slow\", \"isConditional\": true}}, \"Description\": \"Imbue an ability to apply <span class=\\\"highlight\\\">slow</span> on a hit target and deal an <span class=\\\"highlight\\\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"14\", \"style\": \"healing\", \"isNegative\": false}, \"TechResist\": {\"value\": \"14\", \"style\": null, \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"14\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"Radius\": {\"value\": \"16m\", \"style\": \"distance\", \"isNegative\": false}, \"DelayDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 6.25, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"TechDamagePercent\": {\"value\": \"45\", \"style\": \"tech_damage\", \"isConditional\": true}, \"MovementSpeedSlow\": {\"value\": \"40\", \"style\": \"slow\", \"isConditional\": true}}, \"Description\": \"Imbue an ability to apply <span class=\\\"highlight\\\">slow</span> on a hit target and deal an <span class=\\\"highlight\\\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.\"}]}",
         "Cooldown": 6.25,
         "Duration": "0",
         "CastRange": "0",
@@ -2609,7 +2670,7 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "TechDamagePercent": "40",
+        "TechDamagePercent": "45",
         "DelayDuration": "3",
         "MinimumDamage": "100",
         "Radius": "16m",
@@ -2675,7 +2736,7 @@
         "ShopFilters": [
             "Disruption"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"140\", \"style\": \"health\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"3\", \"style\": \"healing\", \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"2.0\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"MovementSpeedSlow\": {\"value\": \"25\", \"style\": \"slow\", \"isConditional\": true}, \"FireRateSlow\": {\"value\": \"40\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"When the target takes <span class=\\\"highlight\\\">Spirit Damage</span>, they have their <span class=\\\"highlight\\\">Move Speed</span> and <span class=\\\"highlight\\\">Fire Rate</span> reduced.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"160\", \"style\": \"health\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"3\", \"style\": \"healing\", \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"2.0\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"MovementSpeedSlow\": {\"value\": \"25\", \"style\": \"slow\", \"isConditional\": true}, \"FireRateSlow\": {\"value\": \"40\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"When the target takes <span class=\\\"highlight\\\">Spirit Damage</span>, they have their <span class=\\\"highlight\\\">Move Speed</span> and <span class=\\\"highlight\\\">Fire Rate</span> reduced.\"}]}",
         "Cooldown": "0",
         "Duration": "2.0",
         "CastRange": "0",
@@ -2692,7 +2753,8 @@
         "FireRateSlow": "40",
         "MovementSpeedSlow": "25",
         "BonusHealthRegen": "3",
-        "BonusHealth": "140",
+        "BonusHealth": "160",
+        "BonusSprintSpeed": "1m",
         "isComponent": []
     },
     "upgrade_magic_vulnerability": {
@@ -2899,7 +2961,7 @@
         "ImagePath": "images/upgrades/mods_tech/rapid_recharge.png",
         "TargetTypes": null,
         "ShopFilters": null,
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusAbilityCharges\": {\"value\": \"2\", \"style\": \"cast\", \"isNegative\": false}, \"CooldownBetweenChargeReduction\": {\"value\": \"65\", \"style\": \"cooldown\", \"isNegative\": false}, \"CooldownReductionOnChargedAbilities\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusAbilityCharges\": {\"value\": \"2\", \"style\": \"cast\", \"isNegative\": false}, \"CooldownBetweenChargeReduction\": {\"value\": \"60\", \"style\": \"cooldown\", \"isNegative\": false}, \"CooldownReductionOnChargedAbilities\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2913,7 +2975,7 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "CooldownBetweenChargeReduction": "65",
+        "CooldownBetweenChargeReduction": "60",
         "BonusAbilityCharges": "2",
         "CooldownReductionOnChargedAbilities": "30",
         "BaseAttackDamagePercent": "12",
@@ -2933,7 +2995,7 @@
             "FireRate",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusFireRate\": {\"value\": \"10\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusFireRate\": {\"value\": \"11\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -2947,7 +3009,7 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "BonusFireRate": "10",
+        "BonusFireRate": "11",
         "BonusSprintSpeed": "1m",
         "isComponent": []
     },
@@ -2966,7 +3028,7 @@
             "ClipSize",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"2\", \"style\": \"healing\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"VexBarrierShieldDuration\": {\"value\": \"9\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 32.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"VexBarrierBulletMaxHealth\": {\"value\": \"400\", \"style\": \"bullet_armor_up\", \"isConditional\": true}, \"VexBarrierTechMaxHealth\": {\"value\": \"200\", \"style\": \"tech_armor_up\", \"isConditional\": true}}, \"Description\": \"Automatically <span class=\\\"highlight\\\">restores one stamina</span> and deploy temporary <span class=\\\"highlight\\\">Bullet and Spirit Shields</span> when you are <span class=\\\"highlight\\\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusClipSizePercent\": {\"value\": \"20\", \"style\": null, \"isNegative\": false}, \"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}, \"BonusHealthRegen\": {\"value\": \"2\", \"style\": \"healing\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"VexBarrierShieldDuration\": {\"value\": \"9\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 32.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"VexBarrierBulletMaxHealth\": {\"value\": \"350\", \"style\": \"bullet_armor_up\", \"isConditional\": true}, \"VexBarrierTechMaxHealth\": {\"value\": \"200\", \"style\": \"tech_armor_up\", \"isConditional\": true}}, \"Description\": \"Automatically <span class=\\\"highlight\\\">restores one stamina</span> and deploy temporary <span class=\\\"highlight\\\">Bullet and Spirit Shields</span> when you are <span class=\\\"highlight\\\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.\"}]}",
         "Cooldown": 32.0,
         "Duration": "10",
         "CastRange": "0",
@@ -2980,7 +3042,7 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "VexBarrierBulletMaxHealth": "400",
+        "VexBarrierBulletMaxHealth": "350",
         "VexBarrierTechMaxHealth": "200",
         "BonusClipSizePercent": "20",
         "BonusHealth": "75",
@@ -2999,8 +3061,8 @@
         "ImagePath": "images/upgrades/mods_tech/refresher_module.png",
         "TargetTypes": null,
         "ShopFilters": null,
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"8\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"16\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 230.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Reset the cooldown</span> of all your abilities and <span class=\\\"highlight\\\">restore all your charges</span>.\"}]}",
-        "Cooldown": 230.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"8\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BulletResist\": {\"value\": \"16\", \"style\": \"bullet_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 260.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"<span class=\\\"highlight\\\">Reset the cooldown</span> of all your abilities and <span class=\\\"highlight\\\">restore all your charges</span>.\"}]}",
+        "Cooldown": 260.0,
         "Duration": "0",
         "CastRange": "0",
         "UnitTargetLimit": "1",
@@ -3035,8 +3097,8 @@
             "Healing",
             "Movement"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"TechPower\": {\"value\": \"9\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityChannelTime\": {\"value\": \"2.5\", \"style\": \"cast\", \"isNegative\": false}, \"AbilityCastRange\": {\"value\": \"32m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 26.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealPercentAmount\": {\"value\": \"26\", \"style\": \"healing\", \"isConditional\": false}, \"BonusMoveSpeed\": {\"value\": \"0m\", \"style\": \"move_speed\", \"isConditional\": false}}, \"Description\": \"<span class=\\\"highlight\\\">Heals</span> a target allied hero and yourself for a percentage of <span class=\\\"highlight\\\">Max Health</span>. Once while healing, you can <span class=\\\"highlight\\\">Pull</span> the target towards you. Can be self-cast.\"}]}",
-        "Cooldown": 26.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}, \"TechPower\": {\"value\": \"9\", \"style\": \"tech_damage\", \"isNegative\": false}, \"TechRangeMultiplier\": {\"value\": \"6\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityChannelTime\": {\"value\": \"2.5\", \"style\": \"cast\", \"isNegative\": false}, \"AbilityCastRange\": {\"value\": \"32m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 36.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealPercentAmount\": {\"value\": \"26\", \"style\": \"healing\", \"isConditional\": false}, \"BonusMoveSpeed\": {\"value\": \"0m\", \"style\": \"move_speed\", \"isConditional\": false}}, \"Description\": \"<span class=\\\"highlight\\\">Heals</span> a target allied hero and yourself for a percentage of <span class=\\\"highlight\\\">Max Health</span>. Once while healing, you can <span class=\\\"highlight\\\">Pull</span> the target towards you. Can be self-cast.\"}]}",
+        "Cooldown": 36.0,
         "Duration": "0",
         "CastRange": "32m",
         "UnitTargetLimit": "1",
@@ -3055,6 +3117,8 @@
         "BonusHealth": "125",
         "BonusSprintSpeed": "1m",
         "SelfModifier": "100",
+        "TechRangeMultiplier": "6",
+        "TechRadiusMultiplier": "6",
         "isComponent": []
     },
     "upgrade_restorative_locket": {
@@ -3073,7 +3137,7 @@
             "Healing",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"10\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"MeleeResistPercent\": {\"value\": \"25\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"When an enemy uses an ability within 50m range from you, store one <span class=\\\"highlight\\\">Restoration Stack</span>.\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealPerStack\": {\"value\": \"35\", \"style\": \"healing\", \"isConditional\": false}, \"MaxStacks\": {\"value\": \"15\", \"style\": \"\", \"isConditional\": false}}, \"Description\": \"Consume all stacks to <span class=\\\"highlight\\\">heal target ally</span> and replenish a <span class=\\\"highlight\\\">stamina point</span>. Can be self-cast.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechResist\": {\"value\": \"10\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"MeleeResistPercent\": {\"value\": \"25\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"When an enemy uses an ability within 50m range from you, store one <span class=\\\"highlight\\\">Restoration Stack</span>.\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealPerStack\": {\"value\": \"32\", \"style\": \"healing\", \"isConditional\": false}, \"MaxStacks\": {\"value\": \"15\", \"style\": \"\", \"isConditional\": false}}, \"Description\": \"Consume all stacks to <span class=\\\"highlight\\\">heal target ally</span> and replenish a <span class=\\\"highlight\\\">stamina point</span>. Can be self-cast.\"}]}",
         "Cooldown": 30.0,
         "Duration": "0",
         "CastRange": "30m",
@@ -3091,7 +3155,7 @@
         "TechResist": "10",
         "MeleeResistPercent": "25",
         "BonusSprintSpeed": "1m",
-        "HealPerStack": "35",
+        "HealPerStack": "32",
         "MaxStacks": "15",
         "isComponent": []
     },
@@ -3111,7 +3175,7 @@
             "WeaponDamage",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"90\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"6\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 6, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealFromHero\": {\"value\": \"40\", \"style\": \"healing\", \"isConditional\": false}, \"HealFromNPC\": {\"value\": \"15\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"Your next bullet will <span class=\\\"highlight\\\">heal</span> you based on what target you hit.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"100\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"6\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 6, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"HealFromHero\": {\"value\": \"40\", \"style\": \"healing\", \"isConditional\": false}, \"HealFromNPC\": {\"value\": \"15\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"Your next bullet will <span class=\\\"highlight\\\">heal</span> you based on what target you hit.\"}]}",
         "Cooldown": 6,
         "Duration": "0",
         "CastRange": "0",
@@ -3126,11 +3190,11 @@
         "TechPower": "0",
         "WeaponPower": "0",
         "Radius": "1m",
-        "ProcChance": "100",
+        "ProcChance": "90",
         "BaseAttackDamagePercent": "6",
         "HealFromHero": "40",
         "HealFromNPC": "15",
-        "BulletShieldMaxHealth": "90",
+        "BulletShieldMaxHealth": "100",
         "isComponent": []
     },
     "upgrade_return_fire": {
@@ -3140,7 +3204,9 @@
         "Tier": "2",
         "Activation": "InstantCast",
         "Slot": "Armor",
-        "Components": null,
+        "Components": [
+            "upgrade_endurance"
+        ],
         "ImagePath": "images/upgrades/mods_tech/return_fire.png",
         "TargetTypes": null,
         "ShopFilters": [
@@ -3295,10 +3361,10 @@
     },
     "upgrade_targeted_silence": {
         "Name": "Silence Glyph",
-        "Description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities.",
+        "Description": "Fire a projectile which <span class=\"highlight\">silences and damages</span> the first enemy hero it hits. Silence does not interrupt channeling abilities.",
         "Cost": "3000",
         "Tier": "3",
-        "Activation": "ActivationPress",
+        "Activation": "InstantCast",
         "Slot": "Tech",
         "Components": null,
         "ImagePath": "images/upgrades/mods_weapon/targeted_silence.png",
@@ -3309,12 +3375,12 @@
             "WeaponDamage",
             "Disruption"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"150\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCastRange\": {\"value\": \"25m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"3.0\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 32.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"StatusEffectEMP\": {\"value\": \"Silenced\", \"style\": \"StatusEffectEMP\", \"isConditional\": false}, \"Damage\": {\"value\": \"100\", \"style\": \"tech_damage\", \"isConditional\": false}}, \"Description\": \"Fires a projectile which <span class=\\\"highlight\\\">silences and damages</span> the target. Silence does not interrupt channeling abilities.\"}]}",
-        "Cooldown": 32.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechShieldMaxHealth\": {\"value\": \"150\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCastRange\": {\"value\": \"25m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"3.0\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 24.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"StatusEffectEMP\": {\"value\": \"Silenced\", \"style\": \"StatusEffectEMP\", \"isConditional\": false}, \"Damage\": {\"value\": \"100\", \"style\": \"tech_damage\", \"isConditional\": false}}, \"Description\": \"Fire a projectile which <span class=\\\"highlight\\\">silences and damages</span> the first enemy hero it hits. Silence does not interrupt channeling abilities.\"}]}",
+        "Cooldown": 24.0,
         "Duration": "3.0",
         "CastRange": "25m",
         "UnitTargetLimit": "1",
-        "CastDelay": "0",
+        "CastDelay": "0.1",
         "ChannelTime": "0",
         "PostCastDuration": "0",
         "Charges": "0",
@@ -3328,27 +3394,22 @@
         "BonusSprintSpeed": "1m",
         "isComponent": []
     },
-    "upgrade_silencer": {
+    "upgrade_proc_silence": {
         "Name": "Silencer",
-        "Description": null,
+        "Description": "Your bullets build up a Debuff that briefly <span class=\"highlight\">Silences</span> and reduces their <span class=\"highlight\">Spirit Damage</span>.  Victims are immune to the build up for <span class=\"highlight\">12s</span> after debuff expires.",
         "Cost": "6200",
         "Tier": "4",
-        "Activation": "InstantCast",
+        "Activation": "Passive",
         "Slot": "Weapon",
-        "Components": [
-            "upgrade_slowing_bullets"
-        ],
+        "Components": null,
         "ImagePath": "images/upgrades/mods_weapon/emp_bullets.png",
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption"
-        ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"SlowPercent\": {\"value\": \"25\", \"style\": \"slow\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"20\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"TechPower\": {\"value\": \"18\", \"style\": \"tech_damage\", \"isNegative\": false}, \"TechResist\": {\"value\": \"12\", \"style\": \"tech_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"EMPDuration\": {\"value\": \"2\", \"style\": null, \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 36.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"StatusEffectEMP\": {\"value\": \"Silenced\", \"style\": \"StatusEffectEMP\", \"isConditional\": false}}, \"Description\": \"For the next 4s, <span class=\\\"highlight\\\">all your bullets immediately apply Silence</span>. Silence prevents targets from using abilities.\"}]}",
-        "Cooldown": 36.0,
-        "Duration": "4",
+        "ShopFilters": null,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"20\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"StatusResistancePercent\": {\"value\": \"20\", \"style\": \"duration\", \"isNegative\": false}, \"TechResist\": {\"value\": \"15\", \"style\": \"tech_armor_up\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"SilenceDuration\": {\"value\": \"2\", \"style\": null, \"isNegative\": false}, \"DebuffDuration\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}, \"TechDamageReduction\": {\"value\": \"-40\", \"style\": \"duration\", \"isNegative\": false}, \"BuildUpPerShot\": {\"value\": \"1.1\", \"style\": null, \"isNegative\": false}, \"ImmunityDuration\": {\"value\": \"12\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"StatusEffectEMP\": {\"value\": \"Silenced\", \"style\": \"StatusEffectEMP\", \"isConditional\": false}}, \"Description\": \"Your bullets build up a Debuff that briefly <span class=\\\"highlight\\\">Silences</span> and reduces their <span class=\\\"highlight\\\">Spirit Damage</span>.  Victims are immune to the build up for <span class=\\\"highlight\\\">12s</span> after debuff expires.\"}]}",
+        "Cooldown": "0",
+        "Duration": "0",
         "CastRange": "0",
         "UnitTargetLimit": "1",
         "CastDelay": "0",
@@ -3358,13 +3419,17 @@
         "CooldownBetweenCharge": "0",
         "ChannelMoveSpeed": "50",
         "ResourceCost": "0",
-        "TechPower": "18",
+        "TechPower": "0",
         "WeaponPower": "0",
-        "EMPDuration": "2",
         "BaseAttackDamagePercent": "20",
-        "SlowPercent": "25",
-        "SlowDuration": "1.3",
-        "TechResist": "12",
+        "TechResist": "15",
+        "StatusResistancePercent": "20",
+        "TechDamageReduction": "-40",
+        "SilenceDuration": "2",
+        "DebuffDuration": "6",
+        "ImmunityDuration": "12",
+        "BuildUpPerShot": "1.1",
+        "BuildUpDuration": "5",
         "isComponent": []
     },
     "upgrade_siphon_bullets": {
@@ -3443,7 +3508,7 @@
         "SlowDuration": "1.3",
         "BaseAttackDamagePercent": "16",
         "isComponent": [
-            "upgrade_silencer"
+            "upgrade_glass_cannon"
         ]
     },
     "upgrade_containment": {
@@ -3486,36 +3551,6 @@
         "GroundDashReductionPercent": "-30",
         "isComponent": []
     },
-    "upgrade_rebirth": {
-        "Name": "Soul Rebirth",
-        "Description": null,
-        "Cost": "6200",
-        "Tier": "4",
-        "Activation": "Passive",
-        "Slot": "Armor",
-        "Components": null,
-        "ImagePath": "images/upgrades/mods_tech/rebirth.png",
-        "TargetTypes": null,
-        "ShopFilters": null,
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"TechPower\": {\"value\": \"12\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"SpawnTimePenalty\": {\"value\": \"30\", \"style\": \"duration\", \"isNegative\": true}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": 240.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"RespawnHealthPercent\": {\"value\": \"50\", \"style\": \"healing\", \"isConditional\": false}}, \"Description\": \"If you die, after 4s you will <span class=\\\"highlight\\\">respawn at your death location</span> with partial health.\"}]}",
-        "Cooldown": 240.0,
-        "Duration": "0",
-        "CastRange": "0",
-        "UnitTargetLimit": "1",
-        "CastDelay": "0",
-        "ChannelTime": "0",
-        "PostCastDuration": "0",
-        "Charges": "0",
-        "CooldownBetweenCharge": "0",
-        "ChannelMoveSpeed": "50",
-        "ResourceCost": "0",
-        "TechPower": "12",
-        "WeaponPower": "0",
-        "SpawnTimePenalty": "30",
-        "RespawnDelay": "4",
-        "RespawnHealthPercent": "50",
-        "isComponent": []
-    },
     "upgrade_tech_defense_shredders": {
         "Name": "Soul Shredder Bullets",
         "Description": "Your bullets apply a debuff that amplifies your <span class=\"highlight\">Spirit Damage</span> against the target and grants you <span class=\"highlight\">Spirit Lifesteal</span> against them.",
@@ -3532,7 +3567,7 @@
             "MagicDamage",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"7\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DebuffDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"ShreddersTechAmp\": {\"value\": \"10\", \"style\": \"tech_armor_down\", \"isConditional\": true}, \"AbilityLifestealPercentHero\": {\"value\": \"20\", \"style\": \"healing\", \"isConditional\": true}}, \"Description\": \"Your bullets apply a debuff that amplifies your <span class=\\\"highlight\\\">Spirit Damage</span> against the target and grants you <span class=\\\"highlight\\\">Spirit Lifesteal</span> against them.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BaseAttackDamagePercent\": {\"value\": \"7\", \"style\": \"bullet_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DebuffDuration\": {\"value\": \"6\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"ShreddersTechAmp\": {\"value\": \"8\", \"style\": \"tech_armor_down\", \"isConditional\": true}, \"AbilityLifestealPercentHero\": {\"value\": \"18\", \"style\": \"healing\", \"isConditional\": true}}, \"Description\": \"Your bullets apply a debuff that amplifies your <span class=\\\"highlight\\\">Spirit Damage</span> against the target and grants you <span class=\\\"highlight\\\">Spirit Lifesteal</span> against them.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -3547,9 +3582,53 @@
         "TechPower": "0",
         "WeaponPower": "0",
         "BaseAttackDamagePercent": "7",
-        "ShreddersTechAmp": "10",
+        "ShreddersTechAmp": "8",
         "DebuffDuration": "6",
-        "LifestealPercentHero": "20",
+        "LifestealPercentHero": "18",
+        "isComponent": [
+            "upgrade_spellslinger_headshots"
+        ]
+    },
+    "upgrade_spellslinger_headshots": {
+        "Name": "Spellslinger Headshots",
+        "Description": "Landing a <span class=\"highlight\">headshot</span> on an enemy hero increases your total <span class=\"highlight\">Spirit Power</span>.",
+        "Cost": "3000",
+        "Tier": "3",
+        "Activation": "Passive",
+        "Slot": "Weapon",
+        "Components": [
+            "upgrade_tech_defense_shredders"
+        ],
+        "ImagePath": "images/upgrades/mods_weapon/headhunter.png",
+        "TargetTypes": [
+            "AllEnemy"
+        ],
+        "ShopFilters": [
+            "WeaponDamage",
+            "MagicDamage"
+        ],
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"ShreddersTechAmp\": {\"value\": \"8\", \"style\": \"tech_armor_down\", \"isNegative\": false}, \"AbilityLifestealPercentHero\": {\"value\": \"18\", \"style\": \"healing\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"12\", \"style\": \"bullet_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"150\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityCooldown\": {\"value\": \"1.5\", \"style\": \"cooldown\", \"isNegative\": false}, \"BuffDuration\": {\"value\": \"12\", \"style\": \"duration\", \"isNegative\": false}, \"MaxStacks\": {\"value\": \"12\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SpiritPowerGainPct\": {\"value\": \"3\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"Landing a <span class=\\\"highlight\\\">headshot</span> on an enemy hero increases your total <span class=\\\"highlight\\\">Spirit Power</span>.\"}]}",
+        "Cooldown": "1.5",
+        "Duration": "0",
+        "CastRange": "0",
+        "UnitTargetLimit": "1",
+        "CastDelay": "0",
+        "ChannelTime": "0",
+        "PostCastDuration": "0",
+        "Charges": "0",
+        "CooldownBetweenCharge": "0",
+        "ChannelMoveSpeed": "50",
+        "ResourceCost": "0",
+        "TechPower": "0",
+        "WeaponPower": "0",
+        "BaseAttackDamagePercent": "12",
+        "BonusHealth": "150",
+        "SpiritPowerGainPct": "3",
+        "BuffDuration": "12",
+        "MaxStacks": "12",
+        "ShreddersTechAmp": "8",
+        "LifestealPercentHero": "18",
+        "DebuffDuration": "6",
         "isComponent": []
     },
     "upgrade_tech_armor": {
@@ -3600,7 +3679,7 @@
             "Healing",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"23\", \"style\": \"healing\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"AbilityLifestealPercentHero\": {\"value\": \"22\", \"style\": \"healing\", \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -3614,9 +3693,52 @@
         "ResourceCost": "0",
         "TechPower": "0",
         "WeaponPower": "0",
-        "LifestealPercentHero": "23",
+        "LifestealPercentHero": "22",
         "NonHeroAbilityLifestealTooltipOnly": "3",
         "BonusHealth": "75",
+        "isComponent": []
+    },
+    "upgrade_spirit_snatch": {
+        "Name": "Spirit Snatch",
+        "Description": "When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, the attack deals extra <span class=\"highlight\">Spirit Damage</span> and steals <span class=\"highlight\">Spirit Resist</span> and <span class=\"highlight\">Spirit Power</span>.",
+        "Cost": "3000",
+        "Tier": "3",
+        "Activation": "Passive",
+        "Slot": "Tech",
+        "Components": [
+            "upgrade_acolytes_glove"
+        ],
+        "ImagePath": "images/upgrades/mods_tech/spirit_snatch.png",
+        "TargetTypes": [
+            "HeroEnemy"
+        ],
+        "ShopFilters": [
+            "MagicDamage",
+            "Melee"
+        ],
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMeleeDamagePercent\": {\"value\": \"15\", \"style\": \"melee_damage\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"125\", \"style\": \"health\", \"isNegative\": false}, \"TechResist\": {\"value\": \"8\", \"style\": \"tech_armor_up\", \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"AbilityDuration\": {\"value\": \"16\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 6, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"SpiritDamage\": {\"value\": \"50\", \"style\": \"tech_damage\", \"isConditional\": false}, \"TechArmorGain\": {\"value\": \"12\", \"style\": \"tech_armor_up\", \"isConditional\": true}, \"TechPowerGain\": {\"value\": \"26\", \"style\": \"tech_damage\", \"isConditional\": true}}, \"Description\": \"When you perform a <span class=\\\"highlight\\\">Light or Heavy Melee</span> attack against a hero, the attack deals extra <span class=\\\"highlight\\\">Spirit Damage</span> and steals <span class=\\\"highlight\\\">Spirit Resist</span> and <span class=\\\"highlight\\\">Spirit Power</span>.\"}]}",
+        "Cooldown": 6,
+        "Duration": "16",
+        "CastRange": "0",
+        "UnitTargetLimit": "1",
+        "CastDelay": "0",
+        "ChannelTime": "0",
+        "PostCastDuration": "0",
+        "Charges": "0",
+        "CooldownBetweenCharge": "0",
+        "ChannelMoveSpeed": "50",
+        "ResourceCost": "0",
+        "TechPower": "0",
+        "WeaponPower": "0",
+        "SpiritDamage": "50",
+        "TechArmorDamageReduction": "-12",
+        "TechArmorGain": "12",
+        "TechPowerReduction": "-26",
+        "TechPowerGain": "26",
+        "BonusMeleeDamagePercent": "15",
+        "TechResist": "8",
+        "BonusHealth": "125",
+        "BonusSprintSpeed": "1m",
         "isComponent": []
     },
     "upgrade_acolytes_glove": {
@@ -3653,7 +3775,9 @@
         "TechArmorDamageReduction": "-12",
         "TechShieldMaxHealth": "80",
         "BonusMeleeDamagePercent": "12",
-        "isComponent": []
+        "isComponent": [
+            "upgrade_spirit_snatch"
+        ]
     },
     "upgrade_tech_overflow": {
         "Name": "Spiritual Overflow",
@@ -3819,7 +3943,7 @@
             "Movement",
             "FireRate"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusFireRate\": {\"value\": \"7\", \"style\": null, \"isNegative\": false}, \"TechPower\": {\"value\": \"12\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"Stamina\": {\"value\": \"3\", \"style\": null, \"isNegative\": false}, \"StaminaCooldownReduction\": {\"value\": \"25\", \"style\": null, \"isNegative\": false}, \"AirMoveIncreasePercent\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Increases the number of <span class=\\\"highlight\\\">Air Dashes</span> and <span class=\\\"highlight\\\">Air Jumps</span> that can be performed before landing from <span class=\\\"highlight\\\">1 to 2</span>\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"75\", \"style\": \"health\", \"isNegative\": false}, \"BonusFireRate\": {\"value\": \"7\", \"style\": null, \"isNegative\": false}, \"TechPower\": {\"value\": \"12\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {\"Stamina\": {\"value\": \"3\", \"style\": null, \"isNegative\": false}, \"StaminaCooldownReduction\": {\"value\": \"25\", \"style\": null, \"isNegative\": false}, \"AirMoveIncreasePercent\": {\"value\": \"30\", \"style\": null, \"isNegative\": false}}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"Increases the number of <span class=\\\"highlight\\\">Air Jump, Air Dashes</span> and <span class=\\\"highlight\\\">Wall Jumps</span> that can be performed before landing from <span class=\\\"highlight\\\">1 to 2</span>\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -3835,6 +3959,7 @@
         "WeaponPower": "0",
         "Stamina": "3",
         "StaminaCooldownReduction": "25",
+        "BonusHealth": "75",
         "BonusFireRate": "7",
         "AirMoveIncreasePercent": "30",
         "isComponent": []
@@ -4036,7 +4161,7 @@
             "MagicDamage",
             "Durability"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"160\", \"style\": \"health\", \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DamagePulseRadius\": {\"value\": \"9m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"DamagePulseAmount\": {\"value\": \"40\", \"style\": \"tech_damage\", \"isConditional\": false}}, \"Description\": \"Periodically deals <span class=\\\"highlight\\\">Spirit Damage</span> to the closest two enemies nearby.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"160\", \"style\": \"health\", \"isNegative\": false}, \"MeleeResistPercent\": {\"value\": \"15\", \"style\": null, \"isNegative\": false}, \"TechPower\": {\"value\": \"6\", \"style\": \"tech_damage\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DamagePulseRadius\": {\"value\": \"9m\", \"style\": \"distance\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"DamagePulseAmount\": {\"value\": \"40\", \"style\": \"tech_damage\", \"isConditional\": false}}, \"Description\": \"Periodically deals <span class=\\\"highlight\\\">Spirit Damage</span> to the closest two enemies nearby.\"}]}",
         "Cooldown": 1.5,
         "Duration": "0",
         "CastRange": "0",
@@ -4053,6 +4178,7 @@
         "BonusHealth": "160",
         "DamagePulseAmount": "40",
         "DamagePulseRadius": "9m",
+        "MeleeResistPercent": "15",
         "isComponent": []
     },
     "upgrade_toxic_bullets": {
@@ -4073,7 +4199,7 @@
             "MagicDamage",
             "Disruption"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DotDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}, \"BuildUpPerShot\": {\"value\": \"0.92\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"DotHealthPercent\": {\"value\": \"2.5\", \"style\": \"tech_damage\", \"isConditional\": false}, \"HealAmpReceivePenaltyPercent\": {\"value\": \"-65\", \"style\": \"\", \"isConditional\": true}}, \"Description\": \"Your bullets build up a <span class=\\\"highlight\\\">Bleed</span> on enemies, causing them to lose a <span class=\\\"highlight\\\">percentage</span> of their <span class=\\\"highlight\\\">Max Health</span> over time. Also applies <span class=\\\"highlight\\\">Healing Reduction</span> on the bleeding target.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusHealth\": {\"value\": \"100\", \"style\": \"health\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Passive\": [{\"AbilityProperties\": {\"DotDuration\": {\"value\": \"3\", \"style\": \"duration\", \"isNegative\": false}, \"BuildUpPerShot\": {\"value\": \"0.92\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"DotHealthPercent\": {\"value\": \"2.5\", \"style\": \"tech_damage\", \"isConditional\": false}, \"HealAmpReceivePenaltyPercent\": {\"value\": \"-50\", \"style\": \"\", \"isConditional\": true}}, \"Description\": \"Your bullets build up a <span class=\\\"highlight\\\">Bleed</span> on enemies, causing them to lose a <span class=\\\"highlight\\\">percentage</span> of their <span class=\\\"highlight\\\">Max Health</span> over time. Also applies <span class=\\\"highlight\\\">Healing Reduction</span> on the bleeding target.\"}]}",
         "Cooldown": "0",
         "Duration": "0",
         "CastRange": "0",
@@ -4093,7 +4219,7 @@
         "BuildUpPerShot": "0.92",
         "BuildUpDuration": "5",
         "TickRate": "0.5",
-        "HealAmpReceivePenaltyPercent": "-65",
+        "HealAmpReceivePenaltyPercent": "-50",
         "HealAmpRegenPenaltyPercent": "-65",
         "DotMultiplerTroopers": "0.5",
         "isComponent": []
@@ -4149,7 +4275,7 @@
             "Movement",
             "Healing"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"175\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"ActiveReloadPercent\": {\"value\": \"75\", \"style\": null, \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"4.5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"ActiveBonusLifesteal\": {\"value\": \"100\", \"style\": \"healing\", \"isConditional\": false}, \"ActiveBonusFireRate\": {\"value\": \"40\", \"style\": \"fireRate\", \"isConditional\": false}}, \"Description\": \"Grants <span class=\\\"highlight\\\">Lifesteal</span>, <span class=\\\"highlight\\\">Fire Rate</span>, and <span class=\\\"highlight\\\">Ammo</span>. This added Ammo is not limited by your max magazine size.\"}]}",
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BonusMoveSpeed\": {\"value\": \"2m\", \"style\": \"move_speed\", \"isNegative\": false}, \"BaseAttackDamagePercent\": {\"value\": \"25\", \"style\": \"\", \"isNegative\": false}, \"BonusHealth\": {\"value\": \"175\", \"style\": null, \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"ActiveReloadPercent\": {\"value\": \"75\", \"style\": null, \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 30.0, \"style\": \"cooldown\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"4.5\", \"style\": \"duration\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"ActiveBonusLifesteal\": {\"value\": \"80\", \"style\": \"healing\", \"isConditional\": false}, \"ActiveBonusFireRate\": {\"value\": \"40\", \"style\": \"fireRate\", \"isConditional\": false}}, \"Description\": \"Grants <span class=\\\"highlight\\\">Lifesteal</span>, <span class=\\\"highlight\\\">Fire Rate</span>, and <span class=\\\"highlight\\\">Ammo</span>. This added Ammo is not limited by your max magazine size.\"}]}",
         "Cooldown": 30.0,
         "Duration": "4.5",
         "CastRange": "0",
@@ -4164,7 +4290,7 @@
         "TechPower": "0",
         "WeaponPower": "0",
         "ActiveBonusFireRate": "40",
-        "ActiveBonusLifesteal": "100",
+        "ActiveBonusLifesteal": "80",
         "BonusMoveSpeed": "2m",
         "BaseAttackDamagePercent": "25",
         "BonusHealth": "175",
@@ -4264,8 +4390,8 @@
             "Disruption",
             "MagicDamage"
         ],
-        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"100\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"SpiritPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCastRange\": {\"value\": \"30m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"4.5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 18.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"Damage\": {\"value\": \"50\", \"style\": \"tech_damage\", \"isConditional\": false}, \"FireRateSlow\": {\"value\": \"45\", \"style\": \"fireRate\", \"isConditional\": true}}, \"Description\": \"Target an enemy to apply <span class=\\\"highlight\\\">Fire Rate Slow</span> and reduce their <span class=\\\"highlight\\\">Bullet Resist</span>.\"}]}",
-        "Cooldown": 18.0,
+        "Tooltip": "{\"Innate\": [{\"AbilityProperties\": {\"BulletShieldMaxHealth\": {\"value\": \"100\", \"style\": \"bullet_armor_up\", \"isNegative\": false}, \"SpiritPower\": {\"value\": \"6\", \"style\": null, \"isNegative\": false}, \"BonusSprintSpeed\": {\"value\": \"1m\", \"style\": \"move_speed\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {}, \"Description\": \"\"}], \"Active\": [{\"AbilityProperties\": {\"AbilityCastRange\": {\"value\": \"30m\", \"style\": \"range\", \"isNegative\": false}, \"AbilityDuration\": {\"value\": \"4.5\", \"style\": \"duration\", \"isNegative\": false}, \"AbilityCooldown\": {\"value\": 15.0, \"style\": \"cooldown\", \"isNegative\": false}}, \"ElevatedAbilityProperties\": {}, \"ImportantAbilityProperties\": {\"Damage\": {\"value\": \"50\", \"style\": \"tech_damage\", \"isConditional\": false}, \"FireRateSlow\": {\"value\": \"45\", \"style\": \"fireRate\", \"isConditional\": true}, \"BulletArmorReduction\": {\"value\": \"-11\", \"style\": \"bullet_armor_down\", \"isConditional\": true}}, \"Description\": \"Target an enemy to apply <span class=\\\"highlight\\\">Fire Rate Slow</span> and reduce their <span class=\\\"highlight\\\">Bullet Resist</span>.\"}]}",
+        "Cooldown": 15.0,
         "Duration": "4.5",
         "CastRange": "30m",
         "UnitTargetLimit": "1",
