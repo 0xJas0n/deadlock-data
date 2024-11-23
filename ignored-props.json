@@ -1,6 +1,7 @@
 {
     "keys": [
+        "ChainTickRate",
         "GroundDashReductionPercent",
-        "ChainTickRate"
+        "ImmunityDuration"
     ]
 }
