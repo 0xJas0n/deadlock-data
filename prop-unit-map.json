@@ -59,7 +59,7 @@
     "CloseRangeBonusDamageRange": "",
     "CloseRangeBonusWeaponPower": "%",
     "CooldownBetweenChargeReduction": "%",
-    "CooldownOnMiss": "",
+    "CooldownOnMiss": "s",
     "CooldownReduction": "%",
     "CooldownReductionOnChargedAbilities": "%",
     "CooldownReductionWithShield": "%",

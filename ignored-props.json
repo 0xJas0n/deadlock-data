@@ -1,6 +1,7 @@
 {
     "keys": [
         "ChainTickRate",
+        "CooldownOnMiss",
         "GroundDashReductionPercent",
         "ImmunityDuration"
     ]
